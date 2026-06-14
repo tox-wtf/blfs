@@ -45,11 +45,7 @@ esac
 full_date="$month $day$suffix, $year"
 
 sha="$(git describe --abbrev=1)"
-version=$(echo "$sha" | sed 's/-g[^-]*$//')
-
-if [ "$(git diff HEAD | wc -l)" != "0" ]; then
-    version="$version-wip"
-fi
+version="${sha%%-g*}-tox-$REV"
 
 echo "<!ENTITY year              \"$year\">"               >  version.ent
 echo "<!ENTITY version           \"$version\">"            >> version.ent

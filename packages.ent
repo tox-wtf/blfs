@@ -10,7 +10,7 @@
 <!ENTITY cryptsetup-version           "&cryptsetup-minor;.6">
 <!ENTITY cyrus-sasl-version           "2.1.28">
 <!ENTITY gnupg2-version               "2.5.20">
-<!ENTITY gpgme-version                "2.1.0">
+<!ENTITY gpgme-version                "2.1.1">
 <!ENTITY gpgmepp-version              "2.1.0">
 <!ENTITY gnutls-version               "3.8.13">
 <!ENTITY iptables-version             "1.8.13">
@@ -119,7 +119,7 @@
 <!ENTITY fftw-version                 "3.3.11">
 <!ENTITY fmt-version                  "12.2.0">
 <!ENTITY glib2-minor                  "2.88">
-<!ENTITY glib2-version                "&glib2-minor;.1">
+<!ENTITY glib2-version                "&glib2-minor;.2">
 <!ENTITY glibmm-version               "2.66.8">
 <!ENTITY glibmm2-version              "2.88.0">
 <!ENTITY gmime3-version               "3.2.15">
@@ -821,7 +821,7 @@
 <!ENTITY lynx-version                 "2.9.3">
 
 <!-- Chapter 19 -->
-<!ENTITY fetchmail-version            "6.6.5">
+<!ENTITY fetchmail-version            "6.6.6">
 <!ENTITY mailx-version                "12.5">
 <!ENTITY mutt-version                 "2.4.0">
 <!ENTITY procmail-version             "3.24">
@@ -949,8 +949,8 @@
 <!ENTITY libxklavier-version          "5.4">
 <!ENTITY pango-minor                  "1.57">
 <!ENTITY pango-version                "&pango-minor;.1">
-<!ENTITY pangomm-version              "2.46.4">
-<!ENTITY pangomm2-version             "2.56.1">
+<!ENTITY pangomm-version              "2.46.5">
+<!ENTITY pangomm2-version             "2.56.2">
 <!ENTITY qtwebengine-major            "6.11">
 <!ENTITY qtwebengine-version          "6.11.1">
 <!ENTITY qt6-major                    "6.11">
@@ -963,6 +963,7 @@
 <!ENTITY wlroots-version              "&wlroots-minor;.3">
 <!ENTITY xdg-desktop-portal-version   "1.22.1">
 <!ENTITY xdg-desktop-portal-gtk-version "1.15.3">
+<!ENTITY xdg-desktop-portal-wlr-version "0.8.2">
 
 <!ENTITY gtk2-libdir                  "2.0/2.10.0">
 <!ENTITY qt6-dir                      "$QT6DIR">

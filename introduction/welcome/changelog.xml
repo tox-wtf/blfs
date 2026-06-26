@@ -40,6 +40,36 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>June 26th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to gvfs-1.60.1. Fixes
+          <ulink url="&blfs-ticket-root;23501">#23501</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to pangomm-2.56.2 and pangomm-2.46.5 (pangomm2.46.x). Fixes
+          <ulink url="&blfs-ticket-root;23500">#23500</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to fetchmail-6.6.6. Fixes
+          <ulink url="&blfs-ticket-root;23499">#23499</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to glib-2.88.2. Fixes
+          <ulink url="&blfs-ticket-root;23498">#23498</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gpgme-2.1.1. Fixes
+          <ulink url="&blfs-ticket-root;23497">#23497</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[zeckma] - Add xdg-desktop-portal-wlr for wlroots
+          compositors.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>June 25th, 2026</para>
       <itemizedlist>
         <listitem>

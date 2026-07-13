@@ -40,6 +40,32 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>July 10th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to xrdb-1.2.3 xrefresh-1.1.1 xset-1.2.6 (Xorg apps). Fixes
+          <ulink url="&blfs-ticket-root;23586">#23586</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to pipewire-1.6.8. Fixes
+          <ulink url="&blfs-ticket-root;23585">#23585</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to cifs-utils-7.7. Fixes
+          <ulink url="&blfs-ticket-root;23583">#23583</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to cmake-4.4.0. Fixes
+          <ulink url="&blfs-ticket-root;23582">#23582</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to fontconfig-2.18.2. Fixes
+          <ulink url="&blfs-ticket-root;23581">#23581</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>July 9th, 2026</para>
       <itemizedlist>
         <listitem>

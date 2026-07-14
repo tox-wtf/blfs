@@ -168,7 +168,7 @@
 <!ENTITY libportal-version            "0.9.1">
 <!ENTITY libproxy-version             "0.5.12">
 <!ENTITY libptytty-version            "2.0">
-<!ENTITY libqalculate-version         "5.11.0">
+<!ENTITY libqalculate-version         "5.12.0">
 <!ENTITY libqmi-version               "1.38.0">
 <!ENTITY libseccomp-version           "2.6.1">
 <!ENTITY libsigc-minor                "2.12">
@@ -412,7 +412,7 @@
 <!ENTITY python311-version                  "3.11.1">
 
 <!ENTITY ruby-minor-version           "4.0">
-<!ENTITY ruby-patch-version           "5">
+<!ENTITY ruby-patch-version           "6">
 <!ENTITY ruby-version                 "&ruby-minor-version;.&ruby-patch-version;">
 <!ENTITY ruby-gemdir                  "/usr/lib/ruby/gems/&ruby-minor-version;.0">
 <!ENTITY rust-version                 "1.96.0">

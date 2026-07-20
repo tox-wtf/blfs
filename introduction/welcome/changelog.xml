@@ -40,6 +40,111 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>July 19th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to xmodmap-1.0.12. Fixes
+          <ulink url="&blfs-ticket-root;23622">#23622</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to xwininfo-1.1.7. Fixes
+          <ulink url="&blfs-ticket-root;23621">#23621</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to xclock-1.2.1. Fixes
+          <ulink url="&blfs-ticket-root;23620">#23620</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to Net-DNS-1.56 (Perl module) (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23619">#23619</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>July 18th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xfsprogs-7.1.1. Fixes
+          <ulink url="&blfs-ticket-root;23616">#23616</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to php-8.5.8. Fixes
+          <ulink url="&blfs-ticket-root;23607">#23607</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to wayland-1.26.0. Fixes
+          <ulink url="&blfs-ticket-root;23618">#23618</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to bluefish-2.4.2. Fixes
+          <ulink url="&blfs-ticket-root;23617">#23617</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to nss-3.126. Fixes
+          <ulink url="&blfs-ticket-root;23615">#23615</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to thunar-4.20.9. Fixes
+          <ulink url="&blfs-ticket-root;23613">#23613</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>July 18th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[xry111] - Update to cargo-c-0.24.0. Fixes
+          <ulink url="&blfs-ticket-root;23606">#23606</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[xry111] - Update to rustc-1.97.1. Fixes
+          <ulink url="&blfs-ticket-root;23608">#23608</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[xry111] - Patch LLVM to fix a bug which might break
+          the upcoming Rust update.  Part of
+          <ulink url="&blfs-ticket-root;23608">#23608</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>July 17th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to HTTP-Date-6.08 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23612">#23612</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to shaderc-2026.3 (glslc). Fixes
+          <ulink url="&blfs-ticket-root;23611">#23611</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to LibRaw-0.22.2. Fixes
+          <ulink url="&blfs-ticket-root;23610">#23610</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to FreeRDP-3.30.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23609">#23609</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to build-1.5.1 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;23605">#23605</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to screen-5.0.2. Fixes
+          <ulink url="&blfs-ticket-root;23604">#23604</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to node.js-24.18.0. Fixes
+          <ulink url="&blfs-ticket-root;23603">#23603</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>July 15th, 2026</para>
       <itemizedlist>
         <listitem>
@@ -163,7 +268,7 @@
           <ulink url="&blfs-ticket-root;23580">#23580</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[jlocash] - Update to gstreamer stack to 1.28.5 (Security Update). Fixes
+          <para>[jlocash] - Update the gstreamer stack to 1.28.5 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;23579">#23579</ulink>.</para>
         </listitem>
         <listitem>

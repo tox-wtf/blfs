@@ -40,6 +40,62 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>July 31st, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to shadow-4.20.0. Fixes
+          <ulink url="&blfs-ticket-root;23657">#23657</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to systemd-261.2. Fixes
+          <ulink url="&blfs-ticket-root;23642">#23642</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to vim-9.2.0858. Addresses
+          <ulink url="&blfs-ticket-root;12241">#12241</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>July 30th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to glib-2.88.3. Fixes
+          <ulink url="&blfs-ticket-root;23667">#23667</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to xfce4-settings-4.20.5. Fixes
+          <ulink url="&blfs-ticket-root;23665">#23665</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to xfce4-power-manager-4.20.1. Fixes
+          <ulink url="&blfs-ticket-root;23664">#23664</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to xfce4-panel-4.20.8. Fixes
+          <ulink url="&blfs-ticket-root;23663">#23663</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to tumbler-4.20.2. Fixes
+          <ulink url="&blfs-ticket-root;23662">#23662</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to nghttp2-1.70.0. Fixes
+          <ulink url="&blfs-ticket-root;23661">#23661</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to nfs-utils-2.9.2. Fixes
+          <ulink url="&blfs-ticket-root;23660">#23660</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to node.js-24.18.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23658">#23658</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>July 29th, 2026</para>
       <itemizedlist>
         <listitem>

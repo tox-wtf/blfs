@@ -40,6 +40,36 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>August 2nd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to gnome-maps-50.3. Fixes
+          <ulink url="&blfs-ticket-root;23683">#23683</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to vte-0.84.1. Fixes
+          <ulink url="&blfs-ticket-root;23682">#23682</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libshumate-1.6.3. Fixes
+          <ulink url="&blfs-ticket-root;23681">#23681</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gnome-user-docs-50.4. Fixes
+          <ulink url="&blfs-ticket-root;23680">#23680</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to at-spi2-core-2.60.6. Fixes
+          <ulink url="&blfs-ticket-root;23679">#23679</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libpsl-0.23.1. Fixes
+          <ulink url="&blfs-ticket-root;23678">#23678</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>August 1st, 2026</para>
       <itemizedlist>
         <listitem>

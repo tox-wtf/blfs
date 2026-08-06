@@ -40,6 +40,66 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>August 6th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to thunderbird-153.0.2esr. Fixes
+          <ulink url="&blfs-ticket-root;23700">#23700</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libXfont2-2.0.9 (Xorg library) (Secuirty Update). Fixes
+          <ulink url="&blfs-ticket-root;23697">#23697</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to mako-1.4.0 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;23696">#23696</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to stunnel-5.80 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23695">#23695</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gexiv2-0.16.2. Fixes
+          <ulink url="&blfs-ticket-root;23693">#23693</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 4th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to node-24.19.0. Fixes
+          <ulink url="&blfs-ticket-root;23687">#23687</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to SDL3-3.4.14. Fixes
+          <ulink url="&blfs-ticket-root;23690">#23690</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libadwaita-1.9.3. Fixes
+          <ulink url="&blfs-ticket-root;23689">#23689</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to glslang-16.5.0. Fixes
+          <ulink url="&blfs-ticket-root;23688">#23688</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to mpg123-1.33.7 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23686">#23686</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to poppler-26.08.0. Fixes
+          <ulink url="&blfs-ticket-root;23685">#23685</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to talloc-2.5.0. Fixes
+          <ulink url="&blfs-ticket-root;23684">#23684</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>August 2nd, 2026</para>
       <itemizedlist>
         <listitem>

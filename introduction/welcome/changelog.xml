@@ -40,6 +40,62 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>August 10th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to numpy-2.5.2 (Python Module). Fixes
+          <ulink url="&blfs-ticket-root;23727">#23727</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to qpdf-12.4.0. Fixes
+          <ulink url="&blfs-ticket-root;23726">#23726</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to wpa_supplicant-2.12. Fixes
+          <ulink url="&blfs-ticket-root;23723">#23723</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to pycairo-1.29.1 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;23722">#23722</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to babl-0.1.128. Fixes
+          <ulink url="&blfs-ticket-root;23721">#23721</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to icewm-4.1.0. Fixes
+          <ulink url="&blfs-ticket-root;23719">#23719</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to openldap-LMDB-1.0.1. Fixes
+          <ulink url="&blfs-ticket-root;23718">#23718</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to nmap-7.991. Fixes
+          <ulink url="&blfs-ticket-root;23716">#23716</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to nspr-4.40. Fixes
+          <ulink url="&blfs-ticket-root;23712">#23712</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 8th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbbs] - Update to gcc-16.2.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23702">#23702</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbbs] - Update to gcc-16.2.0. Fixes
+          <ulink url="&blfs-ticket-root;23724">#23724</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>August 7th, 2026</para>
       <itemizedlist>
         <listitem>

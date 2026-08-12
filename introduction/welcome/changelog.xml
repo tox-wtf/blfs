@@ -40,8 +40,65 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>August 11th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to openldap-2.7.0. Fixes
+          <ulink url="&blfs-ticket-root;23717">#23717</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to LVM2.2.03.42. Fixes
+          <ulink url="&blfs-ticket-root;23709">#23709</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Archive qpdf.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libcupsfilters-2.2.0 (Security update). Fixes
+          <ulink url="&blfs-ticket-root;23707">#23707</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Add pdfio-1.6.4. Supports 
+          <ulink url="&blfs-ticket-root;23707">#23707</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to xdg-dbus-proxy-0.1.8 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23734">#23734</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libxfce4windowing-4.20.7. Fixes
+          <ulink url="&blfs-ticket-root;23732">#23732</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to postfix-3.11.6. Fixes
+          <ulink url="&blfs-ticket-root;23730">#23730</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libpsl-0.23.2. Fixes
+          <ulink url="&blfs-ticket-root;23729">#23729</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to apr-util-1.6.5 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23728">#23728</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>August 10th, 2026</para>
       <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-shell-50.4. Fixes
+          <ulink url="&blfs-ticket-root;23694">#23694</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to mutter-50.4. Fixes
+          <ulink url="&blfs-ticket-root;23698">#23698</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gdm-50.2. Fixes
+          <ulink url="&blfs-ticket-root;23692">#23692</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[jlocash] - Update to numpy-2.5.2 (Python Module). Fixes
           <ulink url="&blfs-ticket-root;23727">#23727</ulink>.</para>
@@ -85,7 +142,7 @@
       <para>August 8th, 2026</para>
       <itemizedlist>
         <listitem>
-          <para>[bdubbbs] - Update to gcc-16.2.0 (Security Update). Fixes
+          <para>[bdubbbs] - Update to Python-3.14.7 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;23702">#23702</ulink>.</para>
         </listitem>
         <listitem>

@@ -40,10 +40,56 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>August 20th, 2026</para>
+      <itemizedlist>
+        <listitem >
+          <para>[jlocash] - Update to faad2-2.11.3. Fixes
+          <ulink url="&blfs-ticket-root;23778">#23778</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 19th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to qt6-6.11.2 and qtwebengine-6.11.2 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23772">#23772</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to thunderbird-153.1.0esr (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23774">#23774</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to frei0r-3.3.0. Fixes
+          <ulink url="&blfs-ticket-root;23762">#23762</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to faac-2.1. Fixes
+          <ulink url="&blfs-ticket-root;23773">#23773</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 18th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to intel-microcode-20260812. Fixes
+          <ulink url="&blfs-ticket-root;23740">#23740</ulink>.</para>
+        </listitem>
+        <listitem >
+          <para>[jlocash] - Update to spidermonkey (js) 140.14.0esr (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23769">#23769</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>August 17th, 2026</para>
       <itemizedlist>
         <listitem >
-          <para>[jlocash] - Update to firefox-153.1.0esr. Fixes
+          <para>[jlocash] - Update to firefox-153.1.0esr (Security Update). Fixes
           <ulink url="&blfs-ticket-root;23763">#23763</ulink>.</para>
         </listitem>
       </itemizedlist>

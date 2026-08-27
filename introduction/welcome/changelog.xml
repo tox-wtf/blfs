@@ -40,9 +40,176 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>August 26th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to thunderbird-153.1.1esr. Fixes
+          <ulink url="&blfs-ticket-root;23806">#23806</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 25th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to exim-4.100. Fixes
+          <ulink url="&blfs-ticket-root;23638">#23638</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to avahi-0.9-rc5. Fixes
+          <ulink url="&blfs-ticket-root;23150">#23150</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 25th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to epiphany-50.6. Fixes
+          <ulink url="&blfs-ticket-root;23795">#23795</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to mariadb-12.3.3 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23793">#23793</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xterm-411. Fixes
+          <ulink url="&blfs-ticket-root;23796">#23796</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to emacs-31.1. Fixes
+          <ulink url="&blfs-ticket-root;23787">#23787</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 23rd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to plasma-6.7.4 and 
+          lxqt: kwayland libkscreen layer-shell-qt. Fixes
+          <ulink url="&blfs-ticket-root;23455">#23455</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 22nd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Add tesseract-5.5.3 in support of Plasma's spectacle.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Add leptonica-1.87.0 in support of Plasma's spectacle.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Add corrosion-0.6.1 in support of kdeplasma-addons.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kquickimageeditor-0.6.2.1. Fixes
+          <ulink url="&blfs-ticket-root;23478">#23478</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kirigami-addons-1.13.1. Fixes
+          <ulink url="&blfs-ticket-root;23614">#23614</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kde-gear-26.04.3. Includes 
+          falkon, kate, and kwave.  Fixes
+          <ulink url="&blfs-ticket-root;23421">#23421</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kf6-6.29.0. Includes extra-cmake-modules,
+          breeze-icons, oxygen-icons, frameworks, kconfig, kidletime, 
+          kwindowsystem, and solid.  Fixes
+          <ulink url="&blfs-ticket-root;23442">#23442</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 22nd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to epiphany-50.5. Fixes
+          <ulink url="&blfs-ticket-root;23733">#23733</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-maps-50.4. Fixes
+          <ulink url="&blfs-ticket-root;23777">#23777</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to yelp-49.2. Fixes
+          <ulink url="&blfs-ticket-root;23731">#23731</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-shell-extensions-50.3. Fixes
+          <ulink url="&blfs-ticket-root;23753">#23753</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to postgresql-18.6. Fixes
+          <ulink url="&blfs-ticket-root;23752">#23752</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to NetworkManager-1.58.1. Fixes
+          <ulink url="&blfs-ticket-root;23785">#23785</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to samba-4.24.6. Fixes
+          <ulink url="&blfs-ticket-root;23751">#23751</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to bind and bind-utilities 9.20.27. Fixes
+          <ulink url="&blfs-ticket-root;23776">#23776</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to oxygen-icons-6.2.0. Fixes
+          <ulink url="&blfs-ticket-root;23786">#23786</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to breeze-icons-6.29.0. Fixes
+          <ulink url="&blfs-ticket-root;23442">#23442</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to vim-9.2.0954. Addresses
+          <ulink url="&blfs-ticket-root;12241">#12241</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 21st, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[zeckma] - Update to wayfire-plugins-extra-0.11.2. Fixes
+          <ulink url="&blfs-ticket-root;23767">#23767</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[zeckma] - Update to dhcpcd-10.5.2. Fixes
+          <ulink url="&blfs-ticket-root;23765">#23765</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to frei0r-3.4.0. Fixes
+          <ulink url="&blfs-ticket-root;23779">#23770</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to lightdm-1.33.1. Fixes
+          <ulink url="&blfs-ticket-root;23730">#23730</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to extra-cmake-modules-6.29.0. Part of 
+          <ulink url="&blfs-ticket-root;23442">#23442</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>August 20th, 2026</para>
       <itemizedlist>
-        <listitem >
+        <listitem>
           <para>[jlocash] - Update to faad2-2.11.3. Fixes
           <ulink url="&blfs-ticket-root;23778">#23778</ulink>.</para>
         </listitem>
@@ -53,7 +220,8 @@
       <para>August 19th, 2026</para>
       <itemizedlist>
         <listitem>
-          <para>[bdubbs] - Update to qt6-6.11.2 and qtwebengine-6.11.2 (Security Update). Fixes
+          <para>[bdubbs] - Update to qt6-6.11.2 and qtwebengine-6.11.2
+          (Security Update). Fixes
           <ulink url="&blfs-ticket-root;23772">#23772</ulink>.</para>
         </listitem>
         <listitem>
@@ -79,7 +247,8 @@
           <ulink url="&blfs-ticket-root;23740">#23740</ulink>.</para>
         </listitem>
         <listitem >
-          <para>[jlocash] - Update to spidermonkey (js) 140.14.0esr (Security Update). Fixes
+          <para>[jlocash] - Update to spidermonkey (js) 140.14.0esr (Security
+          Update). Fixes
           <ulink url="&blfs-ticket-root;23769">#23769</ulink>.</para>
         </listitem>
       </itemizedlist>
@@ -89,8 +258,8 @@
       <para>August 17th, 2026</para>
       <itemizedlist>
         <listitem >
-          <para>[jlocash] - Update to firefox-153.1.0esr (Security Update). Fixes
-          <ulink url="&blfs-ticket-root;23763">#23763</ulink>.</para>
+          <para>[jlocash] - Update to firefox-153.1.0esr (Security Update).
+          Fixes <ulink url="&blfs-ticket-root;23763">#23763</ulink>.</para>
         </listitem>
       </itemizedlist>
     </listitem>
@@ -98,35 +267,35 @@
     <listitem>
       <para>August 16th, 2026</para>
       <itemizedlist>
-        <listitem >
+        <listitem>
           <para>[bdubbs] - Update to sentry_sdk-2.68.0 (Python module). Fixes
           <ulink url="&blfs-ticket-root;22894">#22894</ulink>.</para>
         </listitem>
-        <listitem >
+        <listitem>
           <para>[bdubbs] - Archive Python dependency editables. Fixes
           <ulink url="&blfs-ticket-root;23757">#23757</ulink>.</para>
         </listitem>
-        <listitem >
+        <listitem>
           <para>[bdubbs] - Update to shadow-4.20.2. Fixes
           <ulink url="&blfs-ticket-root;23726">#23725</ulink>.</para>
         </listitem>
-        <listitem >
+        <listitem>
           <para>[jlocash] - Update to libcupsfilters-2.2.1. Fixes
           <ulink url="&blfs-ticket-root;23761">#23761</ulink>.</para>
         </listitem>
-        <listitem >
+        <listitem>
           <para>[jlocash] - Update to highlight-4.21. Fixes
           <ulink url="&blfs-ticket-root;23760">#23760</ulink>.</para>
         </listitem>
-        <listitem >
+        <listitem>
           <para>[jlocash] - Update to libical-4.0.5. Fixes
           <ulink url="&blfs-ticket-root;23759">#23759</ulink>.</para>
         </listitem>
-        <listitem >
+        <listitem>
           <para>[jlocash] - Update to doxygen-1.18.0. Fixes
           <ulink url="&blfs-ticket-root;23750">#23750</ulink>.</para>
         </listitem>
-        <listitem >
+        <listitem>
           <para>[pierre] - Add tomlkit-0.15.1 and poetry-core-2.4.1 (Python
           dependencies). Complements
           <ulink url="&blfs-ticket-root;18562">#18562</ulink>.</para>
@@ -137,7 +306,7 @@
     <listitem>
       <para>August 15th, 2026</para>
       <itemizedlist>
-        <listitem >
+        <listitem>
           <para>[bdubbs] - Update to mercurial-7.2.4. Fixes
           <ulink url="&blfs-ticket-root;23738">#23738</ulink>.</para>
         </listitem>
@@ -147,7 +316,7 @@
     <listitem>
       <para>August 14th, 2026</para>
       <itemizedlist>
-        <listitem >
+        <listitem>
           <para>[bdubbs] - Update to libpsl-0.23.3. Fixes
           <ulink url="&blfs-ticket-root;23755">#23755</ulink>.</para>
         </listitem>

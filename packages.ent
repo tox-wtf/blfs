@@ -90,7 +90,7 @@
 <!ENTITY zsh-version                  "5.9.2">
 
 <!-- Chapter 8 Virtualization -->
-<!ENTITY qemu-version                 "11.1.0">
+<!ENTITY qemu-version                 "11.1.1">
 
 <!-- Part III -->
 <!-- Chapter 9 -->
@@ -277,7 +277,7 @@
 <!ENTITY pixman-version               "0.46.4">
 <!ENTITY poppler-version              "26.08.0">
 <!ENTITY potrace-version              "1.16">
-<!-- <!ENTITY qpdf-version                 "12.4.0"> -->
+<!ENTITY qpdf-version                 "12.4.0">
 <!ENTITY qrencode-version             "4.1.1">
 <!ENTITY libsass-version              "3.6.6">
 <!ENTITY sassc-version                "3.6.2">
@@ -291,7 +291,7 @@
 <!ENTITY bogofilter-version           "1.2.5">
 <!ENTITY compface-version             "1.5.2">
 <!ENTITY desktop-file-utils-version   "0.28">
-<!ENTITY dos2unix-version             "7.5.6">
+<!ENTITY dos2unix-version             "7.5.7">
 <!ENTITY editorconfig-core-c-version  "0.12.11">
 <!ENTITY graphviz-version             "15.1.1">
 <!ENTITY gtk-doc-major                "1.36">
@@ -1151,12 +1151,12 @@
 
 <!-- Chapter 41 -->
 <!ENTITY balsa-version                "2.6.5">
-<!ENTITY feh-version                  "3.12.2">
+<!ENTITY feh-version                  "3.12.4">
 <!ENTITY fontforge-version            "20251009">
 <!ENTITY gimp-majmin                  "3.2">
 <!ENTITY gimp-version                 "&gimp-majmin;.4">
 <!ENTITY gimp-help-version            "3.0.2">
-<!ENTITY freerdp-version              "3.30.0">
+<!ENTITY freerdp-version              "3.31.0">
 <!ENTITY gparted-version              "1.8.1">
 <!ENTITY hexchat-version              "2.16.2">
 <!ENTITY inkscape-version             "1.4.4">
@@ -1287,7 +1287,7 @@
 <!ENTITY gs-dl-version                "10.07.1">
 <!ENTITY gs-packver                   "10071">
 <!ENTITY gutenprint-version           "5.3.5">
-<!ENTITY libcupsfilters-version       "2.2.1">
+<!ENTITY libcupsfilters-version       "2.1.1">
 <!ENTITY libppd-version               "2.1.1">
 
 <!-- Chapter 47 -->
@@ -1320,15 +1320,15 @@
 <!ENTITY paps-version                 "0.8.0">
 
 <!-- Chapter 51 -->
-<!ENTITY texlive-version              "20250308">
-<!ENTITY texmf-version                "20250308">
+<!ENTITY texlive-version              "20260301">
+<!ENTITY texmf-version                "20260301">
 <!-- the year is used when setting up PATHs in the tl-installer
  page, as well as to reference the directory in texlive, also
  in asymptote, biber and xindy -->
-<!ENTITY texlive-year                 "2025">
-<!ENTITY asymptote-version            "3.10">
-<!ENTITY biber-version                "2.21">
+<!ENTITY texlive-year                 "2026">
+<!ENTITY asymptote-version            "3.14">
+<!ENTITY biber-version                "2.22">
 <!ENTITY biblatex-version             "3.20">
-<!ENTITY dvisvgm-version              "3.6">
+<!ENTITY dvisvgm-version              "3.6.1">
 <!ENTITY xindy-version                "2.5.1">
 

@@ -40,6 +40,60 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>August 30th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[pierre] - Update to biber-2.22. Fixes
+          <ulink url="&blfs-ticket-root;23754">#23754</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Update to dvisvgm-3.6.1. Fixes
+          <ulink url="&blfs-ticket-root;23699">#23699</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Update to asymptote-3.14. Fixes
+          <ulink url="&blfs-ticket-root;23306">#23306</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Update to texlive-20260301. Fixes
+          <ulink url="&blfs-ticket-root;22900">#22900</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 28th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to FreeRDP-3.31.0. Fixes
+          <ulink url="&blfs-ticket-root;23823">#23823</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>August 27th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to dos2unix-7.5.7. Fixes
+          <ulink url="&blfs-ticket-root;23817">#23817</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to qemu-11.1.1. Fixes
+          <ulink url="&blfs-ticket-root;23808">#23808</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to feh-3.12.4. Fixes
+          <ulink url="&blfs-ticket-root;23834">#23834</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Backport to libcupsfilters-2.1.1 and 
+          add back qpdf for consistency with other cups packages.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>August 26th, 2026</para>
       <itemizedlist>
         <listitem>

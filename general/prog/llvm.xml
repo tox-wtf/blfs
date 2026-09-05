@@ -8,7 +8,8 @@
 
   <!ENTITY llvm-download-http "&llvm-url;/llvm-project-&llvm-version;.src.tar.xz">
   <!ENTITY llvm-download-ftp  " ">
-  <!-- md5sum and size in packages.ent to be shared with libclc -->
+  <!ENTITY llvm-md5sum        "3159f9d5d76f74e54e083582d660b08d">
+  <!ENTITY llvm-size          "171 MB">
   <!ENTITY llvm-buildsize     "4.7 GB (1.1 GB installed; add 23 GB for tests and 2.3 GB for documentation)">
   <!ENTITY llvm-time          "13 SBU (Add 19 SBU for tests; both using parallelism=8)">
 ]>
@@ -43,6 +44,17 @@
       and for <application>rust</application> if that is built using the system
       <application>LLVM</application>.
     </para>
+
+    <note>
+      <para>
+        On a 32-bit x86 Linux system, <application>Clang</application>
+        defaults to generate object code only runable on Pentium 4 or newer
+        processors.  The older 32-bit processors are no longer considered
+        to be supported by LFS at all.  You may attempt to override the
+        default if you really have to, but the BLFS editors have not tested
+        that.
+      </para>
+    </note>
 
     <para>
       The <application>Compiler RT</application> package provides
@@ -85,7 +97,7 @@
         </para>
       </listitem>
     </itemizedlist>
-
+<!--
     <bridgehead renderas="sect3">Additional Downloads</bridgehead>
     <itemizedlist spacing='compact'>
       <listitem>
@@ -95,7 +107,7 @@
         </para>
       </listitem>
     </itemizedlist>
-
+-->
     <bridgehead renderas="sect3">LLVM Dependencies</bridgehead>
 
     <bridgehead renderas="sect4">Required</bridgehead>
@@ -130,12 +142,6 @@
 
   <sect2 role="installation">
     <title>Installation of LLVM</title>
-
-    <para>
-      At first, fix a bug causing wrong code on some conditions:
-    </para>
-
-    <screen><userinput>patch -Np1 -i ../llvm-&llvm-version;-upstream_fix-1.patch</userinput></screen>
 
     <para>
      There are many Python scripts in this package which use
@@ -272,15 +278,15 @@ systemd-run --user --pty -d -G -p LimitCORE=0 ninja check-all</userinput></scree
       read <xref linkend='build-in-cgroup'/> for details) to limit the
       number of logical cores for running the tests.
 
-      <!-- https://github.com/llvm/llvm-project/issues/184961 -->
-      Four tests named <filename>Linux/pthread_join.cpp</filename>
-      are known to fail.
+      <!-- https://github.com/llvm/llvm-project/issues/216004 -->
+      Eight ThreadSanitizer tests are known to fail with glibc 2.44 or
+      newer.
 
       One test named <filename>Linux/clone_setns.cpp</filename> will fail
       if <option>CONFIG_USER_NS</option> is not enabled in kernel
       configuration.
-      <!-- 22.1.0: 92579 Passed, 34885 Unsupported, 420 Skipped,
-                   136 Expectedly Failed, 4 Failed -->
+      <!-- 23.1.0: 99128 Passed, 37444 Unsupported, 436 Skipped,
+                   133 Expectedly Failed, 8 Failed -->
 
       <!-- To editors: it seems there is a more thorough test suite named
            "test-suite-x.y.z.src.tar.xz" on the GitHub release download
@@ -376,11 +382,7 @@ rmdir -v - -ignore-fail-on-non-empty /usr/share/doc/LLVM</userinput></screen>
     <para>
       <parameter>-D LLVM_ENABLE_RUNTIMES=compiler-rt</parameter>: This
       switch selects the LLVM runtime libraries to be built.  For BLFS we
-      only need compiler-rt (for some features of clang and
-      <xref linkend='rust'/>) and libclc, and the latter have to be built
-      separately (<xref linkend='libclc'/>) to avoid a circular dependency
-      involving <xref linkend='spirv-llvm-translator'/>.  So we only enable
-      compiler-rt here.
+      only need compiler-rt so we only enable it here.
     </para>
 
     <para>

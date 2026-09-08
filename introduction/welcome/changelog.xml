@@ -40,6 +40,102 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>September 7th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to xscreensaver-6.16. Fixes
+          <ulink url="&blfs-ticket-root;23859">#23859</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to localsearch-3.11.2. Fixes
+          <ulink url="&blfs-ticket-root;23846">#23846</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to loupe-50.0. Fixes
+          <ulink url="&blfs-ticket-root;23841">#23841</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to nautilus-50.3.1. Fixes
+          <ulink url="&blfs-ticket-root;23840">#23840</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to sysstat-12.8.0. Fixes
+          <ulink url="&blfs-ticket-root;23836">#23836</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to dovecot-2.4.5 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23832">#23832</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to qca-2.3.12. Fixes
+          <ulink url="&blfs-ticket-root;23830">#23830</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to php-8.5.10. Fixes
+          <ulink url="&blfs-ticket-root;23820">#23820</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gimp-help-3.2.0.  Fixes
+          <ulink url="&blfs-ticket-root;23868">#23868</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to taglib-2.3.2.  Fixes
+          <ulink url="&blfs-ticket-root;23867">#23867</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libpcap-1.10.7 (Security Update).  Fixes
+          <ulink url="&blfs-ticket-root;23866">#23866</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to swig-4.5.1.  Fixes
+          <ulink url="&blfs-ticket-root;23865">#23865</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to hwdata-0.411.  Fixes
+          <ulink url="&blfs-ticket-root;23864">#23864</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to 7zip-26.03 (Security Update).  Fixes
+          <ulink url="&blfs-ticket-root;23863">#23863</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to poppler-26.09.0.  Fixes
+          <ulink url="&blfs-ticket-root;23857">#23857</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to FreeRDP-3.31.1.  Fixes
+          <ulink url="&blfs-ticket-root;23852">#23852</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to frei0r-3.5.0.  Fixes
+          <ulink url="&blfs-ticket-root;23803">#23803</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to maturin-1.15.0 (Python dependency). Fixes
+          <ulink url="&blfs-ticket-root;23781">#23791</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Imath-3.2.3. Fixes
+          <ulink url="&blfs-ticket-root;23782">#23782</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 6th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to libreoffice-26.8.0.3.  Fixes
+          <ulink url="&blfs-ticket-root;23815">#23815</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to WebKitGTK-2.52.6 (Security Update).  Fixes
+          <ulink url="&blfs-ticket-root;23780">#23780</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>September 5th, 2026</para>
       <itemizedlist>
         <listitem>

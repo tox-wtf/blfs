@@ -13,9 +13,9 @@
 <!-- no micro versions -->
 <!ENTITY nss-download-http "https://&nss-url;/NSS_&nss-dir;_RTM/src/nss-&nss-version;.tar.gz">
   <!ENTITY nss-download-ftp  " ">
-  <!ENTITY nss-md5sum        "b2714a3a66dea2b5ffe5370f5438b097">
-  <!ENTITY nss-size          "84 MB">
-  <!ENTITY nss-buildsize     "433 MB (with tests)">
+  <!ENTITY nss-md5sum        "b1655c2e2b2d6980b600ad7da571a7a8">
+  <!ENTITY nss-size          "83 MB">
+  <!ENTITY nss-buildsize     "346 MB (without tests)">
   <!ENTITY nss-time          "0.8 SBU (with parallelism=4, add 8.4 SBU for tests)">
   <!-- Don't know why but I got 27 (i9-10900) - rahul -->
   <!-- On my system, I got 64.2 SBU, but Bruce gets 18 SBU. -renodr -->
@@ -192,15 +192,9 @@ make BUILD_OPT=1                      \
   NSS_USE_SYSTEM_SQLITE=1             \
   $([ $(uname -m) = x86_64 ] &amp;&amp; echo USE_64=1)</userinput></screen>
 
-    <!-- Fixed in 3.127 but we are in freeze and I cannot see which commit
-         really fixed the issue easily.  -->
     <para>
-      The test suite is known to hang indefinitely so the BLFS editors don't
-      recommend to run it.
-    </para>
-<!--
-    <para>
-      To run the tests, execute the following commands:
+      <!-- the unittest files get compiled automatically since nss-3.31.0 -->
+      To run the tests, execute the following commands<!--(1 test is known to fail)-->:
     </para>
 
 <screen remap="test"><userinput>cd tests &amp;&amp;
@@ -258,7 +252,7 @@ cd ../</userinput></screen>
       </listitem>
       </itemizedlist>
      </note>
--->
+
     <para>
       Now, as the <systemitem class="username">root</systemitem> user:
     </para>

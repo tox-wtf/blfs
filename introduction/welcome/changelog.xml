@@ -40,10 +40,262 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>September 23rd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to xdg-dbus-proxy-0.1.9 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24006">#24006</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to vlc-3.0.24. Fixes
+          <ulink url="&blfs-ticket-root;24004">#24004</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libaom-3.15.1. Fixes
+          <ulink url="&blfs-ticket-root;24003">#24003</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libslirp-4.9.5 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24002">#24002</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to fetchmail-6.6.8. Fixes
+          <ulink url="&blfs-ticket-root;24001">#24001</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to mako-1.4.3 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;24000">#24000</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to bubblewrap-0.13.0. Fixes
+          <ulink url="&blfs-ticket-root;23999">#23999</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gnupg-2.5.23. Fixes
+          <ulink url="&blfs-ticket-root;23997">#23997</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 22nd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to sysmon3-3.0.4. Fixes
+          <ulink url="&blfs-ticket-root;23996">#23996</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-maps-51.1. Fixes
+          <ulink url="&blfs-ticket-root;23994">#23994</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnumeric-1.12.62. Fixes
+          <ulink url="&blfs-ticket-root;23990">#23990</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to goffice-0.10.62. Fixes
+          <ulink url="&blfs-ticket-root;23989">#23989</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to umockdev-0.19.9. Fixes
+          <ulink url="&blfs-ticket-root;23984">#23984</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libgsf-1.14.59. Fixes
+          <ulink url="&blfs-ticket-root;23983">#23983</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to rsync-3.5.1. Fixes
+          <ulink url="&blfs-ticket-root;23993">#23993</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libheif-1.23.5 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23992">#23992</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 21st, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to fribidi-1.0.17. Fixes
+          <ulink url="&blfs-ticket-root;23991">#23991</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to cairo-1.18.6. Fixes
+          <ulink url="&blfs-ticket-root;23988">#23988</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to pyparsing-3.3.3 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;23987">#23987</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to harfbuzz-14.5.0. Fixes
+          <ulink url="&blfs-ticket-root;23986">#23986</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to utfcpp-4.2.1. Fixes
+          <ulink url="&blfs-ticket-root;23985">#23985</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 20th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to stunnel-5.82. Fixes
+          <ulink url="&blfs-ticket-root;23963">#23963</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to HTML-Parser-3.86 (Perl module). Fixes
+          <ulink url="&blfs-ticket-root;23981">#23981</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to nfs-utils-3.1.1. Fixes
+          <ulink url="&blfs-ticket-root;23982">#23982</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 19th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to exim-4.100.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23977">#23977</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to x265_4.3. Fixes
+          <ulink url="&blfs-ticket-root;23980">#23980</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to WebKitGTK-2.54.0. Fixes
+          <ulink url="&blfs-ticket-root;23967">#23967</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to xfsprogs-7.2.0. Fixes
+          <ulink url="&blfs-ticket-root;23970">#23970</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to bind and bind utilities 9.20.29 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23957">#23957</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to glycin-2.2.1. Fixes
+          <ulink url="&blfs-ticket-root;23957">#23957</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to ffmpeg-9.0.2. Fixes
+          <ulink url="&blfs-ticket-root;23979">#23979</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gtksourceview5-5.22.0. Fixes
+          <ulink url="&blfs-ticket-root;23978">#23978</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to librsvg-2.63.2. Fixes
+          <ulink url="&blfs-ticket-root;23976">#23976</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 18th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to epiphany-51.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;23904">#23904</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to snapshot-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23951">#23951</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to loupe-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23912">#23912</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gucharmap-18.0.0. Fixes
+          <ulink url="&blfs-ticket-root;23962">#23962</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-system-monitor-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23913">#23913</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-maps-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23911">#23911</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-connections-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23946">#23946</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to evolution-3.62.0. Fixes
+          <ulink url="&blfs-ticket-root;23906">#23906</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-calculator-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23910">#23910</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to pipewire-1.6.9. Fixes
+          <ulink url="&blfs-ticket-root;23975">#23975</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libinput-1.32.0 (Xorg driver). Fixes
+          <ulink url="&blfs-ticket-root;23972">#23972</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to protobuf-36.2. Fixes
+          <ulink url="&blfs-ticket-root;23971">#23971</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-user-docs-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23921">#23921</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-session-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23942">#23942</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-shell-extensions-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23944">#23944</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gdm-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23939">#23939</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-shell-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23943">#23943</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>September 17th, 2026</para>
       <itemizedlist>
         <listitem>
-          <para>[bdubbs] - Update to gnome-keyring-51.0. Fixes
+          <para>[bdubbs] - Update to mutter-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23945">#23945</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-control-center-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23907">#23907</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to tecla-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23934">#23934</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-settings-daemon-51.0. Fixes
+          <ulink url="&blfs-ticket-root;23931">#23931</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gnome-keyring-51.1. Fixes
           <ulink url="&blfs-ticket-root;23930">#23930</ulink>.</para>
         </listitem>
         <listitem>
@@ -666,7 +918,7 @@
           <ulink url="&blfs-ticket-root;23781">#23781</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[jlocash] - Update to URI-5.36 (Perl module) (Security Upate). Fixes
+          <para>[jlocash] - Update to URI-5.36 (Perl module) (Security Update). Fixes
           <ulink url="&blfs-ticket-root;23775">#23775</ulink>.</para>
         </listitem>
         <listitem>

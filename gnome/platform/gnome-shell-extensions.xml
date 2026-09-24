@@ -5,9 +5,9 @@
   %general-entities;
 
   <!ENTITY gnome-shell-extensions-download-http
-           "&gnome-download-http;/gnome-shell-extensions/&gnome-50;/gnome-shell-extensions-&gnome-shell-extensions-version;.tar.xz">
+           "&gnome-download-http;/gnome-shell-extensions/&gnome-51;/gnome-shell-extensions-&gnome-shell-extensions-version;.tar.xz">
   <!ENTITY gnome-shell-extensions-download-ftp  " ">
-  <!ENTITY gnome-shell-extensions-md5sum        "35110b2026bef25499272e8dd8c64ea2">
+  <!ENTITY gnome-shell-extensions-md5sum        "03a731c1e3fe31e126b720e20e2a43af">
   <!ENTITY gnome-shell-extensions-size          "240 KB">
   <!ENTITY gnome-shell-extensions-buildsize     "4.0 MB">
   <!ENTITY gnome-shell-extensions-time          "less than 0.1 SBU">
@@ -108,7 +108,7 @@
 <screen><userinput>mkdir build &amp;&amp;
 cd    build &amp;&amp;
 
-meson setup --prefix=/usr .. </userinput></screen>
+meson setup --prefix=/usr -D extension_set=all ..</userinput></screen>
 
     <para>
       This package does not come with a test suite.
@@ -126,8 +126,9 @@ meson setup --prefix=/usr .. </userinput></screen>
     <title>Command Explanations</title>
 
     <para>
-      <option>-D x11=true</option>: Enables X11 session support. This is
-      deprecated and X11 support for GNOME will be removed in GNOME 50.
+      <parameter>-D extension_set=all</parameter>: Enables building all
+      extensions
+      in the package instead of just the default group of extensions.
     </para>
 
   </sect2>

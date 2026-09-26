@@ -124,6 +124,14 @@
       commands:
     </para>
 
+    <note>
+      <para>
+        Do not add --disable-debug; parted's security fixes for 
+        CVE-2026-89085 and CVE-2026-89088 rely on assertions that 
+        are only compiled in when debugging support is enabled (the default).
+      </para>
+    </note>
+
 <screen><userinput>./configure --prefix=/usr --disable-static &amp;&amp;
 make &amp;&amp;
 

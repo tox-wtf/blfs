@@ -43,6 +43,10 @@
       <para>September 28th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to gdb-18.1. Fixes
+          <ulink url="&blfs-ticket-root;24020">#24020</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to firefox-153.4.0esr. Fixes
           <ulink url="&blfs-ticket-root;24024">#24024</ulink>.</para>
         </listitem>

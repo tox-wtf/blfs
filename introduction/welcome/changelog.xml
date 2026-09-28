@@ -43,6 +43,10 @@
       <para>September 28th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to dbus-glib-0.116. Fixes
+          <ulink url="&blfs-ticket-root;24022">#24022</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to gtk-doc-1.37.0. Fixes
           <ulink url="&blfs-ticket-root;24021">#24021</ulink>.</para>
         </listitem>

@@ -43,6 +43,10 @@
       <para>September 28th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to gtk-doc-1.37.0. Fixes
+          <ulink url="&blfs-ticket-root;24021">#24021</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to qpdf-12.4.2. Fixes
           <ulink url="&blfs-ticket-root;24019">#24019</ulink>.</para>
         </listitem>

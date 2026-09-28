@@ -8,9 +8,8 @@
   <!ENTITY libaom-download-ftp  " ">
   <!ENTITY libaom-md5sum        "2a5833f60a46c9b22e727cebc85a4b89">
   <!ENTITY libaom-size          "6.4 MB">
-  <!ENTITY libaom-buildsize     "139 MB">  <!-- (add 1 GB for tests)" -->
-<!--  <!ENTITY libaom-time          "0.8 SBU (with parallelism=4, add 128 SBU for tests)"> -->
-  <!ENTITY libaom-time          "0.8 SBU (with parallelism=4)">
+  <!ENTITY libaom-buildsize     "139 MB (add 1 GB for tests)">
+  <!ENTITY libaom-time          "0.8 SBU (with parallelism=4), add 151 SBU for tests">
 ]>
 
 <!-- Tests not run for version 3.6.1. -->
@@ -95,7 +94,7 @@
       <xref linkend="doxygen"/>
     </para>
 
-    <!--&test-use-internet;-->
+    &test-use-internet;
 
   </sect2>
 
@@ -135,9 +134,9 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr \
 ninja</userinput></screen>
 
     <para>
-      This package does not come with a working test suite.
-      <!--To test the results, issue: <command>ninja testdata &amp;&amp; ninja runtests</command>.
-      Note that the tests take an extremely long time to run.-->
+      To test the results, issue: <command>ninja runtests</command>.
+      Note that the tests download many data files from the Internet and
+      take an extremely long time to run.
     </para>
 
     <para>

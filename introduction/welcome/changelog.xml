@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>September 29th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to qemu-11.1.2. Fixes
+          <ulink url="&blfs-ticket-root;24025">#24025</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>September 28th, 2026</para>
       <itemizedlist>
         <listitem>

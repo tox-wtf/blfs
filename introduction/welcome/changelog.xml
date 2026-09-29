@@ -43,6 +43,10 @@
       <para>September 29th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to FreeRDP-3.32.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24030">#24030</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to Vulkan-Headers and Vulkan-Loader 1.4.363.0. Fixes
           <ulink url="&blfs-ticket-root;24029">#24029</ulink>.</para>
         </listitem>

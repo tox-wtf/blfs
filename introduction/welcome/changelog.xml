@@ -40,6 +40,128 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>September 28th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to gdb-18.1. Fixes
+          <ulink url="&blfs-ticket-root;24020">#24020</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to firefox-153.4.0esr. Fixes
+          <ulink url="&blfs-ticket-root;24024">#24024</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to frei0r-3.6.0. Fixes
+          <ulink url="&blfs-ticket-root;24023">#24023</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to dbus-glib-0.116. Fixes
+          <ulink url="&blfs-ticket-root;24022">#24022</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gtk-doc-1.37.0. Fixes
+          <ulink url="&blfs-ticket-root;24021">#24021</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to qpdf-12.4.2. Fixes
+          <ulink url="&blfs-ticket-root;24019">#24019</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gspell-1.14.5. Fixes
+          <ulink url="&blfs-ticket-root;24018">#24018</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 26th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to node.js-26.10.0. Fixes
+          <ulink url="&blfs-ticket-root;23998">#23998</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 26th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[zeckma] - Update to mesa-26.2.3. Fixes
+          <ulink url="&blfs-ticket-root;23756">#23756</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Update Java binaries to 21.0.12.1. Completes
+          <ulink url="&blfs-ticket-root;23218">#23218</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 25th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to cifs-utils-7.8. Fixes
+          <ulink url="&blfs-ticket-root;24017">#24017</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to epiphany-51.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24016">#24016</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to samba-4.25.0. Fixes
+          <ulink url="&blfs-ticket-root;24014">#24014</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to php-8.5.11 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24013">#24013</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to Linux-PAM-1.7.3. Fixes
+          <ulink url="&blfs-ticket-root;24010">#24010</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to FreeRDP-3.32.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24015">#24015</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libuv-1.53.0. Fixes
+          <ulink url="&blfs-ticket-root;24012">#24012</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to parted-3.8 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24011">#24011</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 24th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to wireshark-4.6.9 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24009">#24009</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to nss-3.130. Fixes
+          <ulink url="&blfs-ticket-root;24007">#24007</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gnupg-2.5.24. Fixes
+          <ulink url="&blfs-ticket-root;23997">#23997</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to simdutf-9.2.1. Fixes
+          <ulink url="&blfs-ticket-root;23956">#23956</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[pierre] - Update to asymptote-3.15. Fixes
+          <ulink url="&blfs-ticket-root;23952">#23952</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>September 23rd, 2026</para>
       <itemizedlist>
         <listitem>

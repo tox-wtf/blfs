@@ -43,6 +43,10 @@
       <para>September 30th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to faac-2.2. Fixes
+          <ulink url="&blfs-ticket-root;24035">#24035</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libgsf-1.14.60. Fixes
           <ulink url="&blfs-ticket-root;24034">#24034</ulink>.</para>
         </listitem>

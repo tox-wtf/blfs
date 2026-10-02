@@ -7,10 +7,10 @@
   <!ENTITY brasero-download-http
        "&gnome-download-http;/brasero/3.12/brasero-&brasero-version;.tar.xz">
   <!ENTITY brasero-download-ftp  " ">
-  <!ENTITY brasero-md5sum        "ae48248dd36f89282d573eb7a0a1391f">
-  <!ENTITY brasero-size          "3.0 MB">
-  <!ENTITY brasero-buildsize     "105 MB">
-  <!ENTITY brasero-time          "1.0 SBU">
+  <!ENTITY brasero-md5sum        "633d3869a408bc212f9a96d0f87a22d5">
+  <!ENTITY brasero-size          "3.9 MB">
+  <!ENTITY brasero-buildsize     "49 MB">
+  <!ENTITY brasero-time          "0.1 SBU (Using parallelism=4)">
 ]>
 
 <sect1 id="brasero" xreflabel="Brasero-&brasero-version;">
@@ -68,7 +68,7 @@
         </para>
       </listitem>
     </itemizedlist>
-
+<!--
     <bridgehead renderas="sect3">Additional Downloads</bridgehead>
     <itemizedlist spacing="compact">
       <listitem>
@@ -78,13 +78,12 @@
         </para>
       </listitem>
     </itemizedlist>
-
+-->
     <bridgehead renderas="sect3">Brasero Dependencies</bridgehead>
 
     <bridgehead renderas="sect4">Required</bridgehead>
     <para role="required">
       <xref linkend="gst10-plugins-base"/>,
-      <xref linkend='intltool'/>,
       <xref linkend="itstool"/>,
       <xref linkend="libcanberra"/>, and
       <xref linkend="libnotify"/>
@@ -92,11 +91,10 @@
 
     <bridgehead renderas="sect4">Recommended</bridgehead>
     <para role="recommended">
-      &gobject-introspection;,
+      <xref linkend="glib2"/>,
       <xref linkend="libburn"/>,
       <xref linkend="libisoburn"/>, and
       <xref linkend="libisofs"/>,
-      <xref linkend="nautilus"/>,
       <xref linkend="tinysparql"/>, and
       <xref linkend="totem-pl-parser"/>
     </para>
@@ -124,23 +122,24 @@
 
   <sect2 role="installation">
     <title>Installation of Brasero</title>
-
+<!--
     <para>
       First, fix a build issue that occurs with GCC-14:
     </para>
 
 <screen><userinput remap="pre">patch -Np1 -i ../brasero-&brasero-version;-upstream_fixes-1.patch</userinput></screen>
-
+-->
     <para>
       Install <application>Brasero</application> by running the following
       commands:
     </para>
 
-<screen><userinput>./configure --prefix=/usr                \
-            --enable-compile-warnings=no \
-            --enable-cxx-warnings=no     \
-            --disable-nautilus           &amp;&amp;
-make</userinput></screen>
+<screen><userinput>mkdir build &amp;&amp;
+cd    build &amp;&amp;
+
+meson setup --prefix=/usr --buildtype=release .. &amp;&amp;
+
+ninja</userinput></screen>
 
     <para>
       This package does not come with a test suite.
@@ -150,7 +149,7 @@ make</userinput></screen>
       Now, as the <systemitem class="username">root</systemitem> user:
     </para>
 
-<screen role="root"><userinput>make install</userinput></screen>
+<screen role="root"><userinput>ninja install</userinput></screen>
 
   </sect2>
 
@@ -158,18 +157,10 @@ make</userinput></screen>
     <title>Command Explanations</title>
 
     <para>
-      <parameter>--enable-*-warnings=no</parameter>: These switches fix
-      build problems under GCC-6.x compilers.
+      <option>-D gtk-doc=true</option>: Use this option if
+      <application>GTK-Doc</application> is installed and you wish to rebuild
+      and install the API documentation.
     </para>
-
-    <para>
-      <parameter>--disable-nautilus</parameter>: This switch disables building
-      the Nautilus extension since it is incompatible with the gtk4 version of
-      Nautilus.
-    </para>
-
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-      href="../../xincludes/gtk-doc-rebuild.xml"/>
 
   </sect2>
 
@@ -187,7 +178,6 @@ make</userinput></screen>
         </seg>
         <seg>
           libbrasero-{burn,media,utils}3.so
-          <!--/usr/lib/nautilus/extensions-3.0/libnautilus-brasero-extension.so-->
         </seg>
         <seg>
           /usr/include/brasero3,

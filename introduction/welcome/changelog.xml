@@ -55,7 +55,11 @@
           <ulink url="&blfs-ticket-root;24048">#24048</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[bdubbs] - Update to python3-3.14.8 (Security Update).
+          <para>[bdubbs] - Update to systemd-262. Fixes
+          <ulink url="&blfs-ticket-root;23995">#23995</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to python3-3.14.8 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24041">#24041</ulink>.</para>
         </listitem>
       </itemizedlist>

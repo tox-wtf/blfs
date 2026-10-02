@@ -9,7 +9,7 @@
   <!ENTITY python3-download-ftp  " ">
   <!ENTITY python3-md5sum        "a4c4c2991b4126e227073c2d9445f432">
   <!ENTITY python3-size          "23 MB">
-  <!ENTITY python3-buildsize     "348 MB (add 65 MB for tests)">
+  <!ENTITY python3-buildsize     "346 MB (add 65 MB for tests)">
   <!ENTITY python3-time          "2.2 SBU (add 0.7 SBU for tests; both using parallelism=4)">
   <!--
   Note: Size does not reflect docs that were installed in LFS.
@@ -235,7 +235,8 @@ make</userinput></screen>
       limit and 1 SBU (measured when building Binutils pass 1 with one CPU
       core) should be enough.  Some tests are flaky, so the test suite will
       automatically re-run failed tests.  If a test failed but then passed
-      when re-run, it should be considered as passed.
+      when re-run, it should be considered as passed. One test is 
+      known to fail if <xref linkend="glad"/> has been installed.
     </para>
 
     <para>

@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 2nd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to python3-3.14.8 (Security Update).
+          <ulink url="&blfs-ticket-root;24041">#24041</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 1st, 2026</para>
       <itemizedlist>
         <listitem>

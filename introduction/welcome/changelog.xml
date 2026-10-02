@@ -43,6 +43,10 @@
       <para>October 2nd, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to faad2-2.11.4.
+          <ulink url="&blfs-ticket-root;24053">#24053</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to gtk4-4.24.1.
           <ulink url="&blfs-ticket-root;24052">#24052</ulink>.</para>
         </listitem>

@@ -43,19 +43,19 @@
       <para>October 1st, 2026</para>
       <itemizedlist>
         <listitem>
-          <para>[jlocash] - Update to gnome-backgrounds-51.0.1" . Fixes
+          <para>[jlocash] - Update to gnome-backgrounds-51.0.1. Fixes
           <ulink url="&blfs-ticket-root;24043">#24043</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[jlocash] - Update to libsoup3-3.8.0 (Security Update)" . Fixes
+          <para>[jlocash] - Update to libsoup3-3.8.0 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24042">#24042</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[jlocash] - Update to libpng-1.6.59 (Security Update)" . Fixes
+          <para>[jlocash] - Update to libpng-1.6.59 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24040">#24040</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[jlocash] - Update to harfbuzz-14.5.1" . Fixes
+          <para>[jlocash] - Update to harfbuzz-14.5.1. Fixes
           <ulink url="&blfs-ticket-root;24039">#24039</ulink>.</para>
         </listitem>
         <listitem>

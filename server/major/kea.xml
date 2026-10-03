@@ -136,28 +136,9 @@
 
   <sect2 role="installation">
     <title>Installation of ISC Kea DHCP Server</title>
-<!--
-    <para>
-      First, apply a few fixes required for boost-&boost-version;:
-    </para>
-
-<screen><userinput>sed -e "/asio_wrapper/a#include &lt;boost/asio/deadline_timer.hpp&gt;" \
-    -i src/lib/asiolink/interval_timer.cc                        \
-       src/lib/asiodns/io_fetch.cc                               \
-       src/lib/asiodns/tests/io_fetch_unittest.cc                &amp;&amp;
-sed -e "/lexical_cast.hpp/a #include &lt;boost/static_assert.hpp&gt;"  \
-    -i src/lib/log/logger_level_impl.cc                          \
-       src/lib/dns/rdataclass.cc</userinput></screen>
--->
-    <para>
-      First, apply a fix for building with OpenSSL-4:
-    </para>
-
-<screen><userinput>sed -e 's/^[ ]*\(::X509_NAME\)/const \1/' \
-    -i src/lib/asiolink/openssl_tls.h</userinput></screen>
 
     <para>
-      Now, install <application>ISC Kea DHCP Server</application> by running
+      Install <application>ISC Kea DHCP Server</application> by running
       the following commands:
     </para>
 

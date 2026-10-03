@@ -43,6 +43,10 @@
       <para>October 3rd, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to LVM2.2.03.43. Fixes
+          <ulink url="&blfs-ticket-root;24047">#24047</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to kea-3.2.1. Fixes
           <ulink url="&blfs-ticket-root;24046">#24046</ulink>.</para>
         </listitem>

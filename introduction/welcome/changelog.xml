@@ -43,6 +43,10 @@
       <para>October 3rd, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to hwdata-0.412. Fixes
+          <ulink url="&blfs-ticket-root;24057">#24057</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to sdl2-compat-2.32.74. Fixes
           <ulink url="&blfs-ticket-root;24056">#24056</ulink>.</para>
         </listitem>

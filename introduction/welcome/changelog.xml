@@ -43,6 +43,10 @@
       <para>October 4th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to libreoffice-26.8.1.1. Fixes
+          <ulink url="&blfs-ticket-root;24060">#24060</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to WebKitGTK-2.54.1. Fixes
           <ulink url="&blfs-ticket-root;24059">#24059</ulink>.</para>
         </listitem>

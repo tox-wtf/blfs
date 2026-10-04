@@ -43,6 +43,10 @@
       <para>October 4th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to intel-media-driver-26.3.5. Fixes
+          <ulink url="&blfs-ticket-root;24044">#24044</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to gmmlib-22.10.2. Partially fixes
           <ulink url="&blfs-ticket-root;24044">#24044</ulink>.</para>
         </listitem>

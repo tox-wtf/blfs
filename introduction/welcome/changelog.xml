@@ -43,6 +43,10 @@
       <para>October 4th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to Test-Differences-0.73 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;24063">#24063</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libical-4.0.6. Fixes
           <ulink url="&blfs-ticket-root;24061">#24061</ulink>.</para>
         </listitem>

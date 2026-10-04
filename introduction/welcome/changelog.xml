@@ -43,6 +43,10 @@
       <para>October 4th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to xorgproto-2026.1. Fixes
+          <ulink url="&blfs-ticket-root;24065">#24065</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to fetchmail-6.6.9. Fixes
           <ulink url="&blfs-ticket-root;24064">#24064</ulink>.</para>
         </listitem>

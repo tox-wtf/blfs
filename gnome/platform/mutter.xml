@@ -230,11 +230,6 @@ Timeout:           3
       analyze the rendering performance of <application>Mutter</application>.
     </para>
 
-    <para>
-      <option>-D x11=true</option>: Allows building this package with X11
-      support. X11 support is deprecated and will be removed in GNOME 50.
-    </para>
-
   </sect2>
 
   <sect2 role="starting" id="mutter-starting">
@@ -271,10 +266,11 @@ Timeout:           3
 dbus-run-session mutter --wayland --devkit -- vte-2.91</userinput></screen>
 
     <para>
+      <!-- cannot reproduce with 51.0 but the issue is still open??
       There will be a 20-second delay before the nested compositor starts
       up because of
       <ulink url='https://gitlab.gnome.org/GNOME/mutter/-/issues/4159'>a
-      known bug</ulink>.
+      known bug</ulink>. -->
       Replace <replaceable>1920x1080</replaceable> with the size you want
       for the nested Wayland session.
     </para>

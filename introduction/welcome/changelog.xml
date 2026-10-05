@@ -43,6 +43,10 @@
       <para>October 5th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to fast_float-8.3.1. Fixes
+          <ulink url="&blfs-ticket-root;24068">#24068</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[xry111] - Update to rustc-1.99.0. Fixes
           <ulink url="&blfs-ticket-root;24049">#24049</ulink>.</para>
         </listitem>

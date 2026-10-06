@@ -8,10 +8,10 @@
 
   <!ENTITY intel-media-download-http "https://github.com/lfs-book/intel-media-driver/archive/v&intel-media-version;/intel-media-driver-&intel-media-version;.tar.gz">
   <!ENTITY intel-media-download-ftp  " ">
-  <!ENTITY intel-media-md5sum        "507c81a204cbb38da19ac915ec16a618">
+  <!ENTITY intel-media-md5sum        "3ffafc6e04ca20357d710b95ad10b73a">
   <!ENTITY intel-media-size          "28 MB">
   <!ENTITY intel-media-buildsize     "3.2 GB (293 MB installed with a single GPU model)">
-  <!ENTITY intel-media-time          "6.0 SBU (with parallelism=4 and a single GPU model)">
+  <!ENTITY intel-media-time          "5.5 SBU (with parallelism=4 and a single GPU model)">
 ]>
 
   <sect1 id="intel-media-driver" xreflabel="intel-media-driver-&intel-media-version;">
@@ -128,20 +128,18 @@
 
         <!-- This reduce the size of iHD_drv_video.so from 319M to 157M
              for me.  -->
-        <!-- It seems ARL depends on MTL.  We need to review once an Arrow
-             Lake CPU is launched.  -->
-        <!-- Support for ARL is completely broken, needs to be turned off to 
-             complete the build -->
         <para>
-          If you know the model of your Intel GPU, you can pass the
-          <option>-D{GEN{8,9,11,12},MTL,ARL,LNL,BMG,PTL,NVL}=OFF</option> option
-          to the <command>cmake</command> command but leaving the option for your
+          If you know the model of your Intel GPU(s), you can pass the
+          <option>-D{GEN{8,9,11,12},MTL,ARL,LNL,BMG,PTL,NVL,CRI}=OFF</option> option
+          to the <command>cmake</command> command but leaving the option(s) for your
           GPU out.  Note that the <quote>GEN</quote> number here is the
           generation of the GPU, not the CPU.  For example, with an Intel
           Core i7-1065G7 CPU shipping a 11th-generation Intel GPU, the
-          <option>-D{GEN{8,9,12},MTL,ARL,LNL,BMG,PTL,NVL}=OFF</option> option
+          <option>-D{GEN{8,9,12},MTL,ARL,LNL,BMG,PTL,NVL,CRI}=OFF</option> option
           can be used so the code specific to the other generations of Intel GPUs
-          won't be built.
+          won't be built.  Some combinations may cause a build failure
+          because neither the upstream nor the BLFS editors have tested all
+          the possible combinations.
         </para>
 
         <para>

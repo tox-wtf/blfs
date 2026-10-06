@@ -7,10 +7,10 @@
   <!--  <!ENTITY systemd-download-http "https://anduin.linuxfromscratch.org/LFS/systemd-&systemd-version;-&systemd-stable;.tar.xz"> For whenever we move to a stable snapshot for backports -->
   <!ENTITY systemd-download-http "https://github.com/systemd/systemd/archive/v&systemd-version;/systemd-&systemd-version;.tar.gz">
   <!ENTITY systemd-download-ftp  " ">
-  <!ENTITY systemd-md5sum        "21d1d4ea580c2f111f067ee8184e7952">
+  <!ENTITY systemd-md5sum        "1d5940dc3e8cead1034c940c1f1a1eb2">
   <!ENTITY systemd-size          "18 MB">
-  <!ENTITY systemd-buildsize     "488 MB (with tests)">
-  <!ENTITY systemd-time          "1.1 SBU (with tests using 4 cores)">
+  <!ENTITY systemd-buildsize     "388 MB (with tests)">
+  <!ENTITY systemd-time          "1.4 SBU (with tests; using parallelism=4)">
 ]>
 
 <sect1 id="systemd" xreflabel="Systemd-&systemd-version;" revision="systemd">
@@ -170,6 +170,13 @@
       </para>
 
 <screen role="root"><userinput remap="pre">rm -fv /usr/lib/systemd/system/systemd-update-utmp-runlevel.service</userinput></screen>
+
+      <para>
+        Also remove a file tht prevents completion of the installation process.
+        Again as the &root; user:
+      </para>
+
+<screen role="root"><userinput remap="pre">rm -fv /usr/lib/systemd/system/systemd-udevd-control.socket</userinput></screen>
 
     </warning>
 

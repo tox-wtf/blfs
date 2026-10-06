@@ -40,6 +40,236 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 5th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to cups-2.4.20 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24070">#24070</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to pycairo-1.29.2 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;24069">#24069</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to fast_float-8.3.1. Fixes
+          <ulink url="&blfs-ticket-root;24068">#24068</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[xry111] - Update to rustc-1.99.0. Fixes
+          <ulink url="&blfs-ticket-root;24049">#24049</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 4th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[xry111] - Update to git-2.56.0. Fixes
+          <ulink url="&blfs-ticket-root;24028">#24028</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to paps-0.8.1. Fixes
+          <ulink url="&blfs-ticket-root;24067">#24067</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to libreoffice-26.8.1.1. Fixes
+          <ulink url="&blfs-ticket-root;24060">#24060</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to WebKitGTK-2.54.1. Fixes
+          <ulink url="&blfs-ticket-root;24059">#24059</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to intel-media-driver-26.3.5. Fixes
+          <ulink url="&blfs-ticket-root;24044">#24044</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to gmmlib-22.10.2. Partially fixes
+          <ulink url="&blfs-ticket-root;24044">#24044</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to mlt-7.42.0. Fixes
+          <ulink url="&blfs-ticket-root;24066">#24066</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to poppler-26.10.0. Fixes
+          <ulink url="&blfs-ticket-root;24062">#24062</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to xorgproto-2026.1. Fixes
+          <ulink url="&blfs-ticket-root;24065">#24065</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to fetchmail-6.6.9. Fixes
+          <ulink url="&blfs-ticket-root;24064">#24064</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to Test-Differences-0.73 (Perl Module). Fixes
+          <ulink url="&blfs-ticket-root;24063">#24063</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libical-4.0.6. Fixes
+          <ulink url="&blfs-ticket-root;24061">#24061</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 3rd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to httpd-2.4.69. Fixes
+          <ulink url="&blfs-ticket-root;24050">#24050</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to LVM2.2.03.43. Fixes
+          <ulink url="&blfs-ticket-root;24047">#24047</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to kea-3.2.1. Fixes
+          <ulink url="&blfs-ticket-root;24046">#24046</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to cmake-4.4.4. Fixes
+          <ulink url="&blfs-ticket-root;24058">#24058</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to hwdata-0.412. Fixes
+          <ulink url="&blfs-ticket-root;24057">#24057</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to sdl2-compat-2.32.74. Fixes
+          <ulink url="&blfs-ticket-root;24056">#24056</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to SDL3-3.4.18. Fixes
+          <ulink url="&blfs-ticket-root;24055">#24055</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 2nd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to qt-everywhere-src-6.12.0. Fixes
+          <ulink url="&blfs-ticket-root;24045">#24045</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to brasero-3.12.4. Fixes
+          <ulink url="&blfs-ticket-root;24030">#24030</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to shadow-4.20.3. Fixes
+          <ulink url="&blfs-ticket-root;24008">#24008</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to faad2-2.11.4.
+          <ulink url="&blfs-ticket-root;24053">#24053</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gtk4-4.24.1.
+          <ulink url="&blfs-ticket-root;24052">#24052</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to patchelf-0.19.2.
+          <ulink url="&blfs-ticket-root;24048">#24048</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to systemd-262. Fixes
+          <ulink url="&blfs-ticket-root;23995">#23995</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to python3-3.14.8 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24041">#24041</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 1st, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to gnome-backgrounds-51.0.1. Fixes
+          <ulink url="&blfs-ticket-root;24043">#24043</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libsoup3-3.8.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24042">#24042</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libpng-1.6.59 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24040">#24040</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to harfbuzz-14.5.1. Fixes
+          <ulink url="&blfs-ticket-root;24039">#24039</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to SPIRV-LLVM-Translator-23.1.2. Fixes
+          <ulink url="&blfs-ticket-root;24038">#24038</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 30th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to thunderbird-153.4.0esr (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24037">#24037</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to wireplumber-0.5.18. Fixes
+          <ulink url="&blfs-ticket-root;24036">#24036</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to faac-2.2. Fixes
+          <ulink url="&blfs-ticket-root;24035">#24035</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libgsf-1.14.60. Fixes
+          <ulink url="&blfs-ticket-root;24034">#24034</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to ntfs-3g-2026.9.28. Fixes
+          <ulink url="&blfs-ticket-root;24033">#24033</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>September 29th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to spidermonkey from Firefox-140.17.0esr (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24032">#24032</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to FreeRDP-3.32.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24031">#24031</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to Vulkan-Headers and Vulkan-Loader 1.4.363.0. Fixes
+          <ulink url="&blfs-ticket-root;24029">#24029</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to SPIRV-Headers and SPIRV-Tools 1.4.363.0. Fixes
+          <ulink url="&blfs-ticket-root;24027">#24027</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to AppStream-1.2.1. Fixes
+          <ulink url="&blfs-ticket-root;24026">#24026</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to qemu-11.1.2. Fixes
+          <ulink url="&blfs-ticket-root;24025">#24025</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>September 28th, 2026</para>
       <itemizedlist>
         <listitem>
@@ -47,7 +277,7 @@
           <ulink url="&blfs-ticket-root;24020">#24020</ulink>.</para>
         </listitem>
         <listitem>
-          <para>[jlocash] - Update to firefox-153.4.0esr. Fixes
+          <para>[jlocash] - Update to firefox-153.4.0esr (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24024">#24024</ulink>.</para>
         </listitem>
         <listitem>

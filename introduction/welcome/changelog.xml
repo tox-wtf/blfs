@@ -43,6 +43,10 @@
       <para>October 6th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to openssh-10.6p1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24076">#24076</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to rust-bindgen-0.73.2. Fixes
           <ulink url="&blfs-ticket-root;24075">#24075</ulink>.</para>
         </listitem>

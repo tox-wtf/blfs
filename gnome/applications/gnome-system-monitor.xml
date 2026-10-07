@@ -7,9 +7,9 @@
   <!ENTITY gnome-system-monitor-download-http
            "&gnome-download-http;/gnome-system-monitor/&gnome-51;/gnome-system-monitor-&gnome-system-monitor-version;.tar.xz">
   <!ENTITY gnome-system-monitor-download-ftp  " ">
-  <!ENTITY gnome-system-monitor-md5sum        "17dc50d9794dd21417c67621ba422103">
-  <!ENTITY gnome-system-monitor-size          "1.1 MB">
-  <!ENTITY gnome-system-monitor-buildsize     "25 MB">
+  <!ENTITY gnome-system-monitor-md5sum        "8381bbf15a3f5d6c74fcb303958daac3">
+  <!ENTITY gnome-system-monitor-size          "1.2 MB">
+  <!ENTITY gnome-system-monitor-buildsize     "35 MB">
   <!ENTITY gnome-system-monitor-time          "0.3 SBU (with tests)">
 ]>
 
@@ -68,6 +68,7 @@
       </listitem>
     </itemizedlist>
 
+<!--
     <bridgehead renderas="sect3">Additional Downloads</bridgehead>
     <itemizedlist spacing="compact">
       <listitem>
@@ -77,6 +78,7 @@
         </para>
       </listitem>
     </itemizedlist>
+-->
 
     <bridgehead renderas="sect3">GNOME System Monitor Dependencies</bridgehead>
 
@@ -102,12 +104,14 @@
   <sect2 role="installation">
     <title>Installation of GNOME System Monitor</title>
 
+<!--
     <para>
       First, fix a problem when <application>selinux</application> is not
       installed (which is always the case for BLFS).
     </para>
 
 <screen><userinput>patch -Np1 -i ../gnome-system-monitor-&gnome-system-monitor-version;-selinux_fix-1.patch</userinput></screen>
+-->
 
     <para>
       Install <application>GNOME System Monitor</application> by running

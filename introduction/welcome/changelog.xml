@@ -43,6 +43,10 @@
       <para>October 7th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to glycin-2.2.2. Fixes
+          <ulink url="&blfs-ticket-root;24083">#24083</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to gnome-system-monitor-51.1. Fixes
           <ulink url="&blfs-ticket-root;24082">#24082</ulink>.</para>
         </listitem>

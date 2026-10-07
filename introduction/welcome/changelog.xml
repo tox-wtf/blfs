@@ -43,6 +43,10 @@
       <para>October 7th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to log4cplus-2.2.1. Fixes
+          <ulink url="&blfs-ticket-root;24079">#24079</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to glib-2.90.1. Fixes
           <ulink url="&blfs-ticket-root;24078">#24078</ulink>.</para>
         </listitem>

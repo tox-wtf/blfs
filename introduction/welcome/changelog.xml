@@ -43,6 +43,10 @@
       <para>October 8th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to subversion-1.15.0. Fixes
+          <ulink url="&blfs-ticket-root;24087">#24087</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libevdev-1.14.0 (Xorg driver). Fixes
           <ulink url="&blfs-ticket-root;24088">#24088</ulink>.</para>
         </listitem>

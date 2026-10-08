@@ -172,7 +172,7 @@
 <screen role="root"><userinput remap="pre">rm -fv /usr/lib/systemd/system/systemd-update-utmp-runlevel.service</userinput></screen>
 
       <para>
-        Also remove a file tht prevents completion of the installation process.
+        Also remove a file that prevents completion of the installation process.
         Again as the &root; user:
       </para>
 

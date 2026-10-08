@@ -5,10 +5,10 @@
   %general-entities;
 
   <!ENTITY gnome-text-editor-download-http
-           "https://gitlab.gnome.org/GNOME/gnome-text-editor/-/archive/&gnome-text-editor-version;/gnome-text-editor-&gnome-text-editor-version;.tar.bz2">
+           "&gnome-download-http;/gnome-text-editor/&gnome-51;/gnome-text-editor-&gnome-text-editor-version;.tar.xz">
   <!ENTITY gnome-text-editor-download-ftp  " ">
-  <!ENTITY gnome-text-editor-md5sum        "cd1d8bd48df166801464808f962cad9a">
-  <!ENTITY gnome-text-editor-size          "716 KB">
+  <!ENTITY gnome-text-editor-md5sum        "c6b9ba7aba2b17dbef16eab3d49d3f19">
+  <!ENTITY gnome-text-editor-size          "585 KB">
   <!ENTITY gnome-text-editor-buildsize     "13 MB">
   <!ENTITY gnome-text-editor-time          "0.2 SBU">
 ]>

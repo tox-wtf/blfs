@@ -4,9 +4,9 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY libspelling-download-http "https://gitlab.gnome.org/GNOME/libspelling/-/archive/&libspelling-version;/libspelling-&libspelling-version;.tar.bz2">
+  <!ENTITY libspelling-download-http "&gnome-download-http;/libspelling/0.4/libspelling-&libspelling-version;.tar.xz">
   <!ENTITY libspelling-download-ftp  " ">
-  <!ENTITY libspelling-md5sum        "35e3ae09c47a9e02d5f96880b6c7750d">
+  <!ENTITY libspelling-md5sum        "7b9126de70de5de6212f3d3d73862a17">
   <!ENTITY libspelling-size          "72 KB">
   <!ENTITY libspelling-buildsize     "4.0 MB (with tests)">
   <!ENTITY libspelling-time          "0.1 SBU (with tests)">

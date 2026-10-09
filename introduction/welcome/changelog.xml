@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 9th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update gstreamer stack to 1.28.8 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24090">#24090</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 8th, 2026</para>
       <itemizedlist>
         <listitem>

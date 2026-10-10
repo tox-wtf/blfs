@@ -43,6 +43,10 @@
       <para>October 10th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to pygobject3-3.58.1 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;24093">#24093</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to cssselect-1.6.0 (Python module). Fixes
           <ulink url="&blfs-ticket-root;24092">#24092</ulink>.</para>
         </listitem>

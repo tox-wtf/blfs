@@ -258,6 +258,9 @@ ninja -C gi-build</userinput></screen>
     <para>
       To test the results of GObject Introspection, issue:
       <command>ninja -C gi-build test</command>.
+      <!-- https://gitlab.gnome.org/GNOME/gobject-introspection/-/merge_requests/564 -->
+      One test named <filename>test_ccompiler.py</filename> is known
+      to fail with setuptools 84 or newer.
     </para>
 
     <para>

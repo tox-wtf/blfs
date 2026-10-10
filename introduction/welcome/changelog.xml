@@ -43,6 +43,10 @@
       <para>October 10th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to libaom-3.15.2. Fixes
+          <ulink url="&blfs-ticket-root;24096">#24096</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to pygobject3-3.58.1 (Python module). Fixes
           <ulink url="&blfs-ticket-root;24093">#24093</ulink>.</para>
         </listitem>

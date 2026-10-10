@@ -41,7 +41,7 @@
     </para>
 
   </sect2>
-
+  <!--
   <sect2>
     <title>Creating a Rescue Floppy</title>
 
@@ -54,8 +54,8 @@
       system on a single floppy disk and provides the ability to customize
       the contents of your disk if necessary.
     </para>
-
   </sect2>
+  -->
 
   <sect2>
     <title>Creating a Bootable CD-ROM</title>

@@ -69,20 +69,21 @@
 
     <bridgehead renderas="sect4">Required</bridgehead>
     <para role="required">
+      <xref linkend="gtksourceview5"/>
+    </para>
+
+
+    <bridgehead renderas="sect4">Recommended</bridgehead>
+    <para role="recommended">
       <xref linkend="enchant"/>,
-      <xref linkend="icu"/>, 
-      <xref linkend="gtk4"/>, 
-      <xref linkend="gtksourceview5"/>, and
+      <xref linkend="icu"/>,  and
       <xref linkend="vala"/>
     </para>
 
     <bridgehead renderas="sect4">Optional</bridgehead>
     <para role="optional">
-      <xref linkend="enchant"/>,
-      <xref linkend="icu"/>, 
-      <xref linkend="gtk4"/>, 
-      <xref linkend="gtksourceview5"/>, and
-      <xref linkend="vala"/>
+      <xref linkend="gi-docgen"/> and
+      <ulink url="www.sysprof.com">sysprof</ulink>
     </para>
 
   </sect2>
@@ -98,7 +99,11 @@
 <screen><userinput>mkdir build &amp;&amp;
 cd    build &amp;&amp;
 
-meson setup --prefix=/usr --buildtype=release -D gtk_doc=false -D sysprof=false .. &amp;&amp;
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D docs=false       \
+            -D sysprof=false    \
+            ..                  &amp;&amp;
 ninja</userinput></screen>
 
     <para>
@@ -117,9 +122,17 @@ ninja</userinput></screen>
     <title>Command Explanations</title>
 
     <para>
-      <parameter>-D gtk_doc=false</parameter>: Prevents building the
-      documentation. Remove this if you have <application>GTK-Doc</application>
+      <parameter>-D docs=false</parameter>: Prevents building the
+      documentation. Remove this if you have
+      <application>gi-docgen</application>
       installed and wish to build the documentation.
+    </para>
+
+    <para>
+      <parameter>-D sysprof=false</parameter>: Prevents building with
+      profiler data. Remove this if you have
+      <application>sysprof</application>
+      installed and wish to generate data for performance profiling.
     </para>
   </sect2>
 

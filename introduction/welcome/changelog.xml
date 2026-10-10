@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 10th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to fast_float-8.3.2. Fixes
+          <ulink url="&blfs-ticket-root;24091">#24091</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 9th, 2026</para>
       <itemizedlist>
         <listitem>

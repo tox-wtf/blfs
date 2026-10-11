@@ -43,6 +43,10 @@
       <para>October 11th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to xscreensaver-6.17. Fixes
+          <ulink url="&blfs-ticket-root;24101">#24101</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to at-spi2-core-2.62.1. Fixes
           <ulink url="&blfs-ticket-root;24099">#24099</ulink>.</para>
         </listitem>

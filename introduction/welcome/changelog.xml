@@ -43,6 +43,10 @@
       <para>October 11th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to evolution and evolution-data-server-3.62.1. Fixes
+          <ulink url="&blfs-ticket-root;24095">#24095</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to xscreensaver-6.17. Fixes
           <ulink url="&blfs-ticket-root;24101">#24101</ulink>.</para>
         </listitem>

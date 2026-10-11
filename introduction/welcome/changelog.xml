@@ -43,6 +43,10 @@
       <para>October 11th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to at-spi2-core-2.62.1. Fixes
+          <ulink url="&blfs-ticket-root;24099">#24099</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to numpy-2.5.4 (Python Module). Fixes
           <ulink url="&blfs-ticket-root;24098">#24098</ulink>.</para>
         </listitem>

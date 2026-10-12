@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 12th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to fdk-aac-3.0.0. Fixes
+          <ulink url="&blfs-ticket-root;24106">#24106</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 11th, 2026</para>
       <itemizedlist>
         <listitem>

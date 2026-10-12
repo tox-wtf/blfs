@@ -43,6 +43,10 @@
       <para>October 12th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to xterm-412. Fixes
+          <ulink url="&blfs-ticket-root;24108">#24108</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to cargo-c-0.10.26. Fixes
           <ulink url="&blfs-ticket-root;24107">#24107</ulink>.</para>
         </listitem>

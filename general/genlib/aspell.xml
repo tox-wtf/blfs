@@ -75,7 +75,7 @@
       <listitem>
         <para>
           Required patch: <ulink url=
-            "&patch-root;aspell/-&aspell-version;-security_fixes-1.patch"/>
+            "&patch-root;/aspell-&aspell-version;-security_fixes-1.patch"/>
         </para>
       </listitem>
       <listitem>

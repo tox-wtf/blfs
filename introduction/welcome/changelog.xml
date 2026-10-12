@@ -43,6 +43,10 @@
       <para>October 12th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to gnome-maps-51.2. Fixes
+          <ulink url="&blfs-ticket-root;24105">#24105</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to nautilus-51.1. Fixes
           <ulink url="&blfs-ticket-root;24104">#24104</ulink>.</para>
         </listitem>

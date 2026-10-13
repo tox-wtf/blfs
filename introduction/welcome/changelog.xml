@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 13th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to freetype and freetype-doc 2.15.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24109">#24109</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 12th, 2026</para>
       <itemizedlist>
         <listitem>

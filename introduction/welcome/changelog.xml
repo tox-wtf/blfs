@@ -43,6 +43,10 @@
       <para>October 13th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to thunderbird-153.5.0esr (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24114">#24114</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to gnome-control-center-51.1. Fixes
           <ulink url="&blfs-ticket-root;24111">#24111</ulink>.</para>
         </listitem>

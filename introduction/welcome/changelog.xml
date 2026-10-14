@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 14th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to simdutf-9.3.0. Fixes
+          <ulink url="&blfs-ticket-root;24115">#24115</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 13th, 2026</para>
       <itemizedlist>
         <listitem>

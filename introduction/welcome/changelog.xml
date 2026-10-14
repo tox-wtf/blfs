@@ -43,6 +43,10 @@
       <para>October 14th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to curl-8.23.0 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24117">#24117</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to simdutf-9.3.0. Fixes
           <ulink url="&blfs-ticket-root;24115">#24115</ulink>.</para>
         </listitem>

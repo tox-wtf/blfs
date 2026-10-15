@@ -43,6 +43,10 @@
       <para>October 9th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to doxyqml-0.6.0 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;24121">#24121</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to bubblewrap-0.13.1. Fixes
           <ulink url="&blfs-ticket-root;24120">#24120</ulink>.</para>
         </listitem>

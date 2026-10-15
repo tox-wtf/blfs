@@ -6,10 +6,10 @@
 
   <!ENTITY mutter-download-http "&gnome-download-http;/mutter/&gnome-51;/mutter-&mutter-version;.tar.xz">
   <!ENTITY mutter-download-ftp  " ">
-  <!ENTITY mutter-md5sum        "ec6ce20392ea979374ab1b788b74a0e4">
+  <!ENTITY mutter-md5sum        "7984cded2fefaa4def99b20fd7aa9056">
   <!ENTITY mutter-size          "8.1 MB">
-  <!ENTITY mutter-buildsize     "93 MB (add 86 MB for tests)">
-  <!ENTITY mutter-time          "0.4 SBU (Using parallelism=4; add 7.6 SBU for tests)">
+  <!ENTITY mutter-buildsize     "171 MB (add 86 MB for tests)">
+  <!ENTITY mutter-time          "0.6 SBU (Using parallelism=4; add 7.6 SBU for tests)">
 ]>
 
 <sect1 id="mutter" xreflabel="Mutter-&mutter-version;">

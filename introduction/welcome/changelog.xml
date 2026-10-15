@@ -43,6 +43,10 @@
       <para>October 9th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to mutter-51.1. Fixes
+          <ulink url="&blfs-ticket-root;24116">#24116</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to gnome-settings-daemon-51.1. Fixes
           <ulink url="&blfs-ticket-root;24122">#24122</ulink>.</para>
         </listitem>

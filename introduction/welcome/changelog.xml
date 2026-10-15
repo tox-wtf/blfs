@@ -55,6 +55,10 @@
           <ulink url="&blfs-ticket-root;24122">#24122</ulink>.</para>
         </listitem>
         <listitem>
+          <para>[jlocash] - Update to node.js-26.12.0. Fixes
+          <ulink url="&blfs-ticket-root;24119">#24119</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to doxyqml-0.6.0 (Python module). Fixes
           <ulink url="&blfs-ticket-root;24121">#24121</ulink>.</para>
         </listitem>

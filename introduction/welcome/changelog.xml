@@ -43,6 +43,10 @@
       <para>October 16th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to glycin-2.2.3. Fixes
+          <ulink url="&blfs-ticket-root;24125">#24125</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to polkit-128 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24124">#24124</ulink>.</para>
         </listitem>

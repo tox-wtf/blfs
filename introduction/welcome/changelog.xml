@@ -43,6 +43,10 @@
       <para>October 17th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to libXpm-3.5.20 (Xorg library) (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24134">#24134</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libXi-1.8.4 (Xorg library) (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24133">#24133</ulink>.</para>
         </listitem>

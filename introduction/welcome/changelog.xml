@@ -43,6 +43,10 @@
       <para>October 17th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to libXtst-1.2.6 (Xorg library) (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24136">#24136</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libXrender-0.9.13 (Xorg library) (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24135">#24135</ulink>.</para>
         </listitem>

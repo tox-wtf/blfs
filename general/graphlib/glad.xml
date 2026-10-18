@@ -29,7 +29,7 @@
       loading Vulkan, OpenGL, EGL, GLES, and GLX contexts.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -83,6 +83,21 @@
 
   <sect2 role="installation">
     <title>Installation of Glad</title>
+
+    <!-- This package creates a file in 
+           /usr/lib/python3.14/site-packages/glad2-2.0.8.dist-info/top_level.txt
+         that interferes with a test in the main Python3 tests.
+
+         To remove it when installing glad run:
+           sed -i 's/^find = {}/find = { include = ["glad*"] }/' pyproject.toml
+
+         Alternatively after installation, go to
+           /usr/lib/python3.14/site-packages/glad2-2.0.8.dist-info/top_level.txt
+         and manually remove the line 'example'.
+
+         This is such a minor thing, I do not think it needs to go into the 
+         book.  bdubbs - 20206-10-02
+    -->
 
     <para>
       Install <application>Glad</application> by running the following

@@ -4,11 +4,11 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY gdm-download-http "&gnome-download-http;/gdm/&gnome-50;/gdm-&gdm-version;.tar.xz">
+  <!ENTITY gdm-download-http "&gnome-download-http;/gdm/&gnome-51;/gdm-&gdm-version;.tar.xz">
   <!ENTITY gdm-download-ftp  " ">
-  <!ENTITY gdm-md5sum        "aed5adf1f054c76b5a4da739887f30c1">
-  <!ENTITY gdm-size          "984 KB">
-  <!ENTITY gdm-buildsize     "28 MB">
+  <!ENTITY gdm-md5sum        "7d54d425f2d7a73919208a75cab71965">
+  <!ENTITY gdm-size          "464 KB">
+  <!ENTITY gdm-buildsize     "17 MB">
   <!ENTITY gdm-time          "0.2 SBU">
 ]>
 
@@ -31,7 +31,7 @@
       and remote displays.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

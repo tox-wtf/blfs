@@ -7,9 +7,9 @@
   <!ENTITY gst10-plugins-bad-download-http
            "&gstreamer-dl;/gst-plugins-bad/gst-plugins-bad-&gst10-plugins-bad-version;.tar.xz">
   <!ENTITY gst10-plugins-bad-download-ftp  " ">
-  <!ENTITY gst10-plugins-bad-md5sum        "36ead478a4a75adde4e0e704b8101a3f">
-  <!ENTITY gst10-plugins-bad-size          "7.7 MB">
-  <!ENTITY gst10-plugins-bad-buildsize     "314 MB (with tests)">
+  <!ENTITY gst10-plugins-bad-md5sum        "0cc0d6c8f5feac395b93e2909515c2ef">
+  <!ENTITY gst10-plugins-bad-size          "8.0 MB">
+  <!ENTITY gst10-plugins-bad-buildsize     "315 MB (with tests)">
   <!ENTITY gst10-plugins-bad-time          "0.7 SBU (Using parallelism=4; with tests)">
 ]>
 
@@ -34,7 +34,7 @@
       maintainer, or some actual wide use.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -223,8 +223,7 @@ ninja</userinput></screen>
 
     <para>
       To test the results, issue: <command>ninja test</command>. Several tests
-      need a terminal emulator in a graphical session. One test,
-      <emphasis>elements_dtls</emphasis>, is known to fail with OpenSSL-4.x.
+      need a terminal emulator in a graphical session.
 
       <!-- Upstream issue gst-plugins-bad/#1426 -->
       If <xref linkend='gst10-plugins-good'/> is not installed, two tests,

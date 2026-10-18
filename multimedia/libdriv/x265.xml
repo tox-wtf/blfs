@@ -4,12 +4,12 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY x265-download-http "https://bitbucket.org/multicoreware/x265_git/downloads/x265_&x265-version;.tar.gz">
+  <!ENTITY x265-download-http "https://github.com/Multicorewareinc/x265/releases/download/&x265-version;/x265_&x265-version;.tar.gz">
   <!ENTITY x265-download-ftp  " ">
-  <!ENTITY x265-md5sum        "0a7edcf495aba9f320047d61647d610b">
-  <!ENTITY x265-size          "1.8 MB">
-  <!ENTITY x265-buildsize     "49 MB">
-  <!ENTITY x265-time          "0.4 SBU (using parallelism=4)">
+  <!ENTITY x265-md5sum        "17bfc52913b2d97ce23a764a27544957">
+  <!ENTITY x265-size          "2.0 MB">
+  <!ENTITY x265-buildsize     "44 MB">
+  <!ENTITY x265-time          "0.5 SBU (using parallelism=4)">
 ]>
 
 <sect1 id="x265" xreflabel="x265-&x265-version;">
@@ -30,7 +30,7 @@
       video streams into the H.265/HEVC format.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -88,11 +88,13 @@
   <sect2 role="installation">
     <title>Installation of x265</title>
 
+<!--
     <para>
       First, fix building this package for 32-bit platforms:
     </para>
 
 <screen><userinput>sed -i 's/FORMAT_ELF/UNIX64 \&amp;\&amp; FORMAT_ELF/' source/common/x86/cpu-a.asm</userinput></screen>
+-->
 
     <para>
       Install <application>x265</application> by running the following
@@ -103,10 +105,10 @@
 <screen><userinput>mkdir bld &amp;&amp;
 cd    bld &amp;&amp;
 
-cmake -D CMAKE_INSTALL_PREFIX=/usr        \
-      -D GIT_ARCHETYPE=1                  \
-      -W no-dev                           \
-      ../source                           &amp;&amp;
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D GIT_ARCHETYPE=1           \
+      -W no-author                 \
+      ../source                    &amp;&amp;
 make</userinput></screen>
 
     <para>
@@ -161,7 +163,7 @@ rm -vf /usr/lib/libx265.a</userinput></screen>
       </para>
 
       <para>
-        <parameter>-W no-dev</parameter>: This switch is used to suppress warnings
+        <parameter>-W no-author</parameter>: This switch is used to suppress warnings
         intended for the package developers.
       </para>
 

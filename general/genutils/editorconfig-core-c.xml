@@ -32,7 +32,7 @@
        used by those editors.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -67,6 +67,13 @@
         </para>
       </listitem>
     </itemizedlist>
+
+    <bridgehead renderas="sect3">editorconfig-core-c Dependencies</bridgehead>
+
+    <bridgehead renderas="sect4">Required</bridgehead>
+    <para role="required">
+      <xref linkend="cmake"/>
+    </para>
 
   </sect2>
 

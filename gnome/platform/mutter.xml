@@ -4,12 +4,12 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY mutter-download-http "&gnome-download-http;/mutter/&gnome-50;/mutter-&mutter-version;.tar.xz">
+  <!ENTITY mutter-download-http "&gnome-download-http;/mutter/&gnome-51;/mutter-&mutter-version;.tar.xz">
   <!ENTITY mutter-download-ftp  " ">
-  <!ENTITY mutter-md5sum        "297527865ae31d6446b835ab6d85489d">
+  <!ENTITY mutter-md5sum        "7984cded2fefaa4def99b20fd7aa9056">
   <!ENTITY mutter-size          "8.1 MB">
-  <!ENTITY mutter-buildsize     "141 MB (add 84 MB for tests)">
-  <!ENTITY mutter-time          "0.6 SBU (Using parallelism=4; add 6.2 SBU for tests)">
+  <!ENTITY mutter-buildsize     "171 MB (add 86 MB for tests)">
+  <!ENTITY mutter-time          "0.6 SBU (Using parallelism=4; add 7.6 SBU for tests)">
 ]>
 
 <sect1 id="mutter" xreflabel="Mutter-&mutter-version;">
@@ -32,7 +32,7 @@
       machine with a hardware accelerated video driver).
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -143,13 +143,6 @@
 <screen><userinput remap="pre">sed "/tests_c_args =/s/$/ + ['-U', 'G_DISABLE_ASSERT']/" -i src/tests/meson.build &amp;&amp;
 sed "/c_args:/a '-U', 'G_DISABLE_ASSERT'," -i src/tests/cogl/unit/meson.build</userinput></screen>
 
-<!-- https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/5102: merged in 50.3
-    <para>
-      Fix a private header that conflicts with pango-1.58 and later:
-    </para>
-
-<screen><userinput remap="pre">sed "/AUTOPTR/d" -i clutter/clutter/pango/clutter-pango-private.h</userinput></screen>
--->
     <para>
       Install <application>Mutter</application> by running the following
       commands:
@@ -189,6 +182,19 @@ ninja test</userinput></screen>
       this package.
     </para>
 
+<!-- For mutter-51.0:
+Ok:                284 
+Expected Fail:     5    
+Fail:              0   
+Timeout:           3    
+
+158/292 core+mutter/backends/native - mutter:native-screen-cast
+        TIMEOUT         60.06s   killed by signal 15 SIGTERM
+166/292 core+mutter/backends/native - mutter:cursor-tests
+        TIMEOUT         60.06s   killed by signal 15 SIGTERM
+168/292 core+mutter/backends/native - mutter:remote-desktop-tests
+        TIMEOUT         60.04s   killed by signal 15 SIGTERM
+-->
     <para>
       Now, as the <systemitem class="username">root</systemitem> user:
     </para>
@@ -222,11 +228,6 @@ ninja test</userinput></screen>
       without <application>Sysprof</application>.  Remove this option if
       you've installed <application>Sysprof</application> and want to
       analyze the rendering performance of <application>Mutter</application>.
-    </para>
-
-    <para>
-      <option>-D x11=true</option>: Allows building this package with X11
-      support. X11 support is deprecated and will be removed in GNOME 50.
     </para>
 
   </sect2>
@@ -265,10 +266,11 @@ ninja test</userinput></screen>
 dbus-run-session mutter --wayland --devkit -- vte-2.91</userinput></screen>
 
     <para>
+      <!-- cannot reproduce with 51.0 but the issue is still open??
       There will be a 20-second delay before the nested compositor starts
       up because of
       <ulink url='https://gitlab.gnome.org/GNOME/mutter/-/issues/4159'>a
-      known bug</ulink>.
+      known bug</ulink>. -->
       Replace <replaceable>1920x1080</replaceable> with the size you want
       for the nested Wayland session.
     </para>

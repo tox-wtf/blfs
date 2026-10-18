@@ -6,9 +6,9 @@
 
   <!ENTITY pipewire-download-http "https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/&pipewire-version;/pipewire-&pipewire-version;.tar.bz2">
   <!ENTITY pipewire-download-ftp  " ">
-  <!ENTITY pipewire-md5sum        "b6be00b8f901ba8e59d2b4fea100207d">
+  <!ENTITY pipewire-md5sum        "37934083002063da9a7e5d527b75e786">
   <!ENTITY pipewire-size          "2.0 MB">
-  <!ENTITY pipewire-buildsize     "110 MB (with tests)">
+  <!ENTITY pipewire-buildsize     "109 MB (with tests)">
   <!ENTITY pipewire-time          "0.7 SBU (with tests, both using parallelism=4)">
 ]>
 
@@ -31,7 +31,7 @@
       files between applications.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -140,10 +140,10 @@
 <screen><userinput>mkdir build &amp;&amp;
 cd    build &amp;&amp;
 
-meson setup ..                             \
-      --prefix=/usr                        \
-      --buildtype=release                  \
-      -D session-managers="[]"             &amp;&amp;
+meson setup ..                 \
+      --prefix=/usr            \
+      --buildtype=release      \
+      -D session-managers="[]" &amp;&amp;
 ninja</userinput></screen>
 
     <para>

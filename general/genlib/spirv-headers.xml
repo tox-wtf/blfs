@@ -6,9 +6,9 @@
 
   <!ENTITY spirv-headers-download-http "https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-&spirv-headers-version;/SPIRV-Headers-vulkan-sdk-&spirv-headers-version;.tar.gz">
   <!ENTITY spirv-headers-download-ftp  " ">
-  <!ENTITY spirv-headers-md5sum        "4e4950419823d8fbd932edcc5299d54d">
-  <!ENTITY spirv-headers-size          "556 KB">
-  <!ENTITY spirv-headers-buildsize     "4.7 MB">
+  <!ENTITY spirv-headers-md5sum        "67fec63779cccdc562338d316da46678">
+  <!ENTITY spirv-headers-size          "584 KB">
+  <!ENTITY spirv-headers-buildsize     "8.8 MB">
   <!ENTITY spirv-headers-time          "less than 0.1 SBU">
 ]>
 
@@ -32,7 +32,7 @@
       Khronos APIs, including OpenGL and Vulkan.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

@@ -6,9 +6,9 @@
 
   <!ENTITY wireplumber-download-http "https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/&wireplumber-version;/wireplumber-&wireplumber-version;.tar.bz2">
   <!ENTITY wireplumber-download-ftp  " ">
-  <!ENTITY wireplumber-md5sum        "dba978afa67ba317d99ef03285ad4733">
-  <!ENTITY wireplumber-size          "464 KB">
-  <!ENTITY wireplumber-buildsize     "100 MB (with tests)">
+  <!ENTITY wireplumber-md5sum        "c147f0a9debc429038f74ecd85ba1777">
+  <!ENTITY wireplumber-size          "532 KB">
+  <!ENTITY wireplumber-buildsize     "116 MB (with tests)">
   <!ENTITY wireplumber-time          "0.3 SBU (with tests)">
 ]>
 
@@ -29,7 +29,7 @@
       policy manager for <application>Pipewire</application>.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -156,8 +156,9 @@ ninja</userinput></screen>
         Pipewire now provides it's own Pulseaudio server implementation, which
         causes runtime conflicts with the server provided by Pulseaudio itself.
         This generally presents itself by applications hanging or malfunctioning
-        when trying to play or record audio and video. First, prevent
-        Pulseaudio from starting it's own server implementation by running the
+        when trying to play or record audio and video. First, if PulseAudio
+        was not built with a support library only configuration, prevent
+        PulseAudio from starting it's own server implementation by running the
         following commands as the &root; user:
       </para>
 

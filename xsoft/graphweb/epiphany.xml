@@ -5,11 +5,11 @@
   %general-entities;
 
   <!ENTITY epiphany-download-http
-           "&gnome-download-http;/epiphany/&gnome-50;/epiphany-&epiphany-version;.tar.xz">
+           "&gnome-download-http;/epiphany/&gnome-51;/epiphany-&epiphany-version;.tar.xz">
   <!ENTITY epiphany-download-ftp  " ">
-  <!ENTITY epiphany-md5sum        "7c7f76f6c3ecfa6a4e09b7576d68d172">
-  <!ENTITY epiphany-size          "4.3 MB">
-  <!ENTITY epiphany-buildsize     "100 MB (with tests)">
+  <!ENTITY epiphany-md5sum        "5115c0222b750042c2ea7dd37fbf50a0">
+  <!ENTITY epiphany-size          "4.4 MB">
+  <!ENTITY epiphany-buildsize     "102 MB (with tests)">
   <!ENTITY epiphany-time          "0.2 SBU (with tests; both using parallelism=4)">
 ]>
 
@@ -32,7 +32,7 @@
       users. Its principles are simplicity and standards compliance.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -123,6 +123,10 @@ cd    build &amp;&amp;
 
 meson setup --prefix=/usr --buildtype=release .. &amp;&amp;
 ninja</userinput></screen>
+
+    <para>
+      To test the results, issue: <command>ninja test</command>.
+    </para>
 
     <para>
       Now, as the <systemitem class="username">root</systemitem> user:

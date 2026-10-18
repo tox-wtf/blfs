@@ -6,9 +6,9 @@
 
   <!ENTITY libical-download-http "https://github.com/libical/libical/releases/download/v&libical-version;/libical-&libical-version;.tar.gz">
   <!ENTITY libical-download-ftp  " ">
-  <!ENTITY libical-md5sum        "2d25dd342c4f193f957e2d65491b03d2">
-  <!ENTITY libical-size          "1.8 MB">
-  <!ENTITY libical-buildsize     "154 MB (with tests and docs)">
+  <!ENTITY libical-md5sum        "f8f8ffd8aed25953c9b69a3f49b6d1a5">
+  <!ENTITY libical-size          "1.9 MB">
+  <!ENTITY libical-buildsize     "172 MB (with tests and docs)">
   <!ENTITY libical-time          "0.4 SBU (using parallelism=4; with tests and docs)">
 <!-- run at -j1 because it fails at -j4 -->
 ]>
@@ -31,7 +31,7 @@
       of the iCalendar protocols and data formats.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
 

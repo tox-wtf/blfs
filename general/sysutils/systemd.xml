@@ -7,19 +7,16 @@
   <!--  <!ENTITY systemd-download-http "https://anduin.linuxfromscratch.org/LFS/systemd-&systemd-version;-&systemd-stable;.tar.xz"> For whenever we move to a stable snapshot for backports -->
   <!ENTITY systemd-download-http "https://github.com/systemd/systemd/archive/v&systemd-version;/systemd-&systemd-version;.tar.gz">
   <!ENTITY systemd-download-ftp  " ">
-  <!ENTITY systemd-md5sum        "e8c18dba4d0b12dfbffa1ec2a75ae83b">
+  <!ENTITY systemd-md5sum        "1d5940dc3e8cead1034c940c1f1a1eb2">
   <!ENTITY systemd-size          "18 MB">
-  <!ENTITY systemd-buildsize     "402 MB (with tests)">
-  <!ENTITY systemd-time          "1.1 SBU (with tests using 4 cores)">
-
+  <!ENTITY systemd-buildsize     "388 MB (with tests)">
+  <!ENTITY systemd-time          "1.4 SBU (with tests; using parallelism=4)">
 ]>
 
 <sect1 id="systemd" xreflabel="Systemd-&systemd-version;" revision="systemd">
   <?dbhtml filename="systemd.html"?>
 
-
   <title>Systemd-&systemd-version;</title>
-  <!-- Whenever we switch back to stable backports, make sure to add the systemd-stable reference back. -->
 
   <indexterm zone="systemd">
     <primary sortas="a-systemd">systemd</primary>
@@ -38,7 +35,7 @@
       which provides many additional features for dependent packages.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -115,7 +112,6 @@
       <xref linkend="curl"/>,
       <xref linkend="cryptsetup"/>,
       <xref linkend="git"/>,
-      <xref linkend="iptables"/>,
       <xref linkend="libarchive"/>,
       <xref linkend="libidn2"/>,
       <xref linkend="libpwquality"/>,
@@ -138,6 +134,7 @@
       <ulink url="https://sourceware.org/elfutils/">libdw</ulink>,
       <ulink url="https://developers.yubico.com/libfido2/">libfido2</ulink>,
       <ulink url="https://www.gnu.org/software/libmicrohttpd/">libmicrohttpd</ulink>,
+      <ulink url="https://netfilter.org/projects/nftables/">nftables</ulink>,
       <ulink url="https://pypi.org/project/pefile/">pefile</ulink>,
       <ulink url="https://pypi.org/project/pyelftools/">pyelftools</ulink>,
       <ulink url="https://sourceforge.net/projects/linuxquota/">quota-tools</ulink>,
@@ -173,6 +170,13 @@
       </para>
 
 <screen role="root"><userinput remap="pre">rm -fv /usr/lib/systemd/system/systemd-update-utmp-runlevel.service</userinput></screen>
+
+      <para>
+        Also remove a file that prevents completion of the installation process.
+        Again as the &root; user:
+      </para>
+
+<screen role="root"><userinput remap="pre">rm -fv /usr/lib/systemd/system/systemd-udevd-control.socket</userinput></screen>
 
     </warning>
 

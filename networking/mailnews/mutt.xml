@@ -6,7 +6,7 @@
 
   <!ENTITY mutt-download-http "http://ftp.mutt.org/pub/mutt/mutt-&mutt-version;.tar.gz">
   <!ENTITY mutt-download-ftp  " ">
-  <!ENTITY mutt-md5sum        "5013f92c0b45edcac344eaeec68b0e6c">
+  <!ENTITY mutt-md5sum        "1f04ae804c632e7f7240dd88377b0491">
   <!ENTITY mutt-size          "5.4 MB">
   <!ENTITY mutt-buildsize     "49 MB">
   <!ENTITY mutt-time          "0.2 SBU">
@@ -31,7 +31,7 @@
       deleting your email.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing='compact'>

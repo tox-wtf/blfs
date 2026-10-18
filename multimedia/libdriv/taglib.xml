@@ -6,8 +6,8 @@
 
   <!ENTITY taglib-download-http "https://taglib.org/releases/taglib-&taglib-version;.tar.gz">
   <!ENTITY taglib-download-ftp  " ">
-  <!ENTITY taglib-md5sum        "5c38962970c698f8d18beddef0df7f9a">
-  <!ENTITY taglib-size          "1.6 MB">
+  <!ENTITY taglib-md5sum        "3c8f621c54d274d41f54edee93ee39a6">
+  <!ENTITY taglib-size          "1.8 MB">
   <!ENTITY taglib-buildsize     "25 MB">
   <!ENTITY taglib-time          "0.1 SBU (Using parallelism=4)">
 ]>
@@ -31,7 +31,7 @@
       such as <application>VLC</application>.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -94,7 +94,7 @@ cd    build &amp;&amp;
 
 cmake -D CMAKE_INSTALL_PREFIX=/usr \
       -D CMAKE_BUILD_TYPE=Release  \
-      -D BUILD_SHARED_LIBS=ON \
+      -D BUILD_SHARED_LIBS=ON      \
       .. &amp;&amp;
 make</userinput></screen>
 

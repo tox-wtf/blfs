@@ -7,9 +7,9 @@
   <!ENTITY lmdb-download-http 
     "https://git.openldap.org/openldap/openldap/-/archive/LMDB_&lmdb-version;/openldap-LMDB_&lmdb-version;.tar.bz2">
   <!ENTITY lmdb-download-ftp  " ">
-  <!ENTITY lmdb-md5sum        "82afab3729ecbd960cf19db691cd119a">
+  <!ENTITY lmdb-md5sum        "bf23430a8eaafd731b3f10da0fc9e138">
   <!ENTITY lmdb-size          "144 KB">
-  <!ENTITY lmdb-buildsize     "8.7 MB">
+  <!ENTITY lmdb-buildsize     "6.3 MB">
   <!ENTITY lmdb-time          "less than 0.1 SBU">
 ]>
 
@@ -34,7 +34,7 @@
       size of the virtual address space
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

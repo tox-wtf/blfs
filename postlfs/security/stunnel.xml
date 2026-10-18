@@ -6,9 +6,9 @@
 
   <!ENTITY stunnel-download-http "https://www.stunnel.org/downloads/archive/5.x/stunnel-&stunnel-version;.tar.gz">
   <!ENTITY stunnel-download-ftp  " ">
-  <!ENTITY stunnel-md5sum        "bf7b58e41fc738f6646b48c81532c346">
-  <!ENTITY stunnel-size          "908 KB">
-  <!ENTITY stunnel-buildsize     "9.1 MB">
+  <!ENTITY stunnel-md5sum        "3f1646ccf4fbdef0c2c53e965fbeccc2">
+  <!ENTITY stunnel-size          "944 KB">
+  <!ENTITY stunnel-buildsize     "7.9 MB">
   <!ENTITY stunnel-time          "less than 0.1 SBU">
 ]>
 
@@ -37,7 +37,7 @@
       server package source code.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -77,6 +77,8 @@
 
     <bridgehead renderas="sect4">Optional</bridgehead>
     <para role="optional">
+      <ulink url="https://pypi.org/project/cryptography/">cryptography</ulink>
+      (required for tests),
       <xref linkend="libnsl"/>,
       <ulink url="https://netcat.sourceforge.net/">netcat</ulink>
       (required for tests),
@@ -142,8 +144,9 @@ make</userinput></screen>
 make</userinput></screen>
 
     <para>
-      If you have installed the optional netcat application, the
-      regression tests can be run with <command>make check</command>.
+      If you have installed the optional netcat application and Python
+      cryptography module, the regression tests can be run with
+      <command>make check</command>.
     </para>
 
     <para>

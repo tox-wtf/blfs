@@ -6,9 +6,9 @@
 
   <!ENTITY libwacom-download-http "https://github.com/linuxwacom/libwacom/releases/download/libwacom-&libwacom-version;/libwacom-&libwacom-version;.tar.xz">
   <!ENTITY libwacom-download-ftp  " ">
-  <!ENTITY libwacom-md5sum        "471f8da9fc4ff7adc5463d34cc657e4f">
+  <!ENTITY libwacom-md5sum        "4ddf6476047a10c8fbaaba6b30a672e6">
   <!ENTITY libwacom-size          "184 KB">
-  <!ENTITY libwacom-buildsize     "12 MB (with tests)">
+  <!ENTITY libwacom-buildsize     "17 MB (with tests)">
   <!ENTITY libwacom-time          "less than 0.1 SBU (with tests)">
 ]>
 
@@ -31,7 +31,7 @@
       their model-specific features.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

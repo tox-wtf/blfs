@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+
+  <!ENTITY libspelling-download-http "&gnome-download-http;/libspelling/0.4/libspelling-&libspelling-version;.tar.xz">
+  <!ENTITY libspelling-download-ftp  " ">
+  <!ENTITY libspelling-md5sum        "7b9126de70de5de6212f3d3d73862a17">
+  <!ENTITY libspelling-size          "72 KB">
+  <!ENTITY libspelling-buildsize     "4.0 MB (with tests)">
+  <!ENTITY libspelling-time          "0.1 SBU (with tests)">
+]>
+
+<sect1 id="libspelling" xreflabel="libspelling-&libspelling-version;">
+  <?dbhtml filename="libspelling.html"?>
+
+  <title>libspelling-&libspelling-version;</title>
+
+  <indexterm zone="libspelling">
+    <primary sortas="a-libspelling">libspelling</primary>
+  </indexterm>
+
+  <sect2 role="package">
+    <title>Introduction to libspelling</title>
+
+    <para>
+      The <application>libspelling</application> package provides 
+      a GNOME library for spellchecking.
+    </para>
+
+    &lfs131_checked;
+
+    <bridgehead renderas="sect3">Package Information</bridgehead>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          Download (HTTP): <ulink url="&libspelling-download-http;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download (FTP): <ulink url="&libspelling-download-ftp;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download MD5 sum: &libspelling-md5sum;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download size: &libspelling-size;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Estimated disk space required: &libspelling-buildsize;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Estimated build time: &libspelling-time;
+        </para>
+      </listitem>
+    </itemizedlist>
+
+    <bridgehead renderas="sect3">libspelling Dependencies</bridgehead>
+
+    <bridgehead renderas="sect4">Required</bridgehead>
+    <para role="required">
+      <xref linkend="gtksourceview5"/>
+    </para>
+
+
+    <bridgehead renderas="sect4">Recommended</bridgehead>
+    <para role="recommended">
+      <xref linkend="enchant"/>,
+      <xref linkend="icu"/>,  and
+      <xref linkend="vala"/>
+    </para>
+
+    <bridgehead renderas="sect4">Optional</bridgehead>
+    <para role="optional">
+      <xref linkend="gi-docgen"/> and
+      <ulink url="www.sysprof.com">sysprof</ulink>
+    </para>
+
+  </sect2>
+
+  <sect2 role="installation">
+    <title>Installation of libspelling</title>
+
+    <para>
+      Install <application>libspelling</application> by running the following
+      commands:
+    </para>
+
+<screen><userinput>mkdir build &amp;&amp;
+cd    build &amp;&amp;
+
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D docs=false       \
+            -D sysprof=false    \
+            ..                  &amp;&amp;
+ninja</userinput></screen>
+
+    <para>
+      To test the results, issue: <command>ninja test</command>. 
+    </para>
+
+    <para>
+      Now, as the &root; user:
+    </para>
+
+<screen role="root"><userinput>ninja install</userinput></screen>
+
+ </sect2>
+
+  <sect2 role="commands">
+    <title>Command Explanations</title>
+
+    <para>
+      <parameter>-D docs=false</parameter>: Prevents building the
+      documentation. Remove this if you have
+      <application>gi-docgen</application>
+      installed and wish to build the documentation.
+    </para>
+
+    <para>
+      <parameter>-D sysprof=false</parameter>: Prevents building with
+      profiler data. Remove this if you have
+      <application>sysprof</application>
+      installed and wish to generate data for performance profiling.
+    </para>
+  </sect2>
+
+  <sect2 role="content">
+    <title>Contents</title>
+
+    <segmentedlist>
+      <segtitle>Installed Programs</segtitle>
+      <segtitle>Installed Libraries</segtitle>
+      <segtitle>Installed Directories</segtitle>
+
+      <seglistitem>
+        <seg>None</seg>
+        <seg>liblibspelling-1.so</seg>
+        <seg>None</seg>
+      </seglistitem>
+    </segmentedlist>
+
+    <variablelist>
+      <bridgehead renderas="sect3">Short Descriptions</bridgehead>
+      <?dbfo list-presentation="list"?>
+      <?dbhtml list-presentation="table"?>
+
+      <varlistentry id="liblibspelling">
+        <term><filename class="libraryfile">liblibspelling-1.so</filename></term>
+        <listitem>
+          <para>
+            is the <application>libspelling</application> API library
+          </para>
+          <indexterm zone="libspelling liblibspelling">
+            <primary sortas="c-liblibspelling">liblibspelling-1.so</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+  </sect2>
+
+</sect1>

@@ -5,12 +5,12 @@
   %general-entities;
 
   <!ENTITY gnome-control-center-download-http
-           "&gnome-download-http;/gnome-control-center/&gnome-50;/gnome-control-center-&gnome-control-center-version;.tar.xz">
+           "&gnome-download-http;/gnome-control-center/&gnome-51;/gnome-control-center-&gnome-control-center-version;.tar.xz">
   <!ENTITY gnome-control-center-download-ftp  " ">
-  <!ENTITY gnome-control-center-md5sum        "0b7cad81105fde1027d0bd64cd9fb00a">
+  <!ENTITY gnome-control-center-md5sum        "bd69e80f9cdb90be4cccde7f6730fd2e">
   <!ENTITY gnome-control-center-size          "6.8 MB">
-  <!ENTITY gnome-control-center-buildsize     "140 MB (with tests)">
-  <!ENTITY gnome-control-center-time          "0.6 SBU (Using parallelism=4; with tests)">
+  <!ENTITY gnome-control-center-buildsize     "111 MB (with tests)">
+  <!ENTITY gnome-control-center-time          "0.4 SBU (Using parallelism=4; with tests)">
 ]>
 
 <sect1 id="gnome-control-center" xreflabel="gnome-control-center-&gnome-control-center-version;">
@@ -31,7 +31,7 @@
       <application>GNOME</application> settings manager.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -93,7 +93,7 @@
 
     <bridgehead renderas="sect4">Recommended</bridgehead>
     <para role="recommended">
-      <xref linkend="bolt"/> and
+      <xref role='runtime' linkend="bolt"/> (runtime) and
       <xref linkend="ibus"/>
     </para>
 

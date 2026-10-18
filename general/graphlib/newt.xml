@@ -4,7 +4,8 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY newt-download-http "https://releases.pagure.org/newt/newt-&newt-version;.tar.gz">
+  <!--<!ENTITY newt-download-http "https://releases.pagure.org/newt/newt-&newt-version;.tar.gz">-->
+  <!ENTITY newt-download-http "&sources-anduin-http;/newt/newt-&newt-version;.tar.gz">
   <!ENTITY newt-download-ftp  " ">
   <!ENTITY newt-md5sum        "cca66ed1d8774fb9e3f6a33525de416d">
   <!ENTITY newt-size          "176 KB">
@@ -33,7 +34,7 @@
       <application>Newt</application> is based on the S-Lang library.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

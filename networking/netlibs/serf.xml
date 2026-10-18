@@ -33,7 +33,7 @@
       performance operation.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -115,7 +115,6 @@ sed -i "/Alias/s:install_static,::"         SConstruct &amp;&amp;
 sed -e 's/nm->d.ia5->length/ASN1_STRING_length(nm->d.ia5)/'                \
     -e 's/nm->d.ia5->data/(const char *)ASN1_STRING_get0_data(nm->d.ia5)/' \
     -i buckets/ssl_buckets.c                           &amp;&amp;
-
 
 scons PREFIX=/usr</userinput></screen>
 

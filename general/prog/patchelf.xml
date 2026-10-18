@@ -6,9 +6,9 @@
 
   <!ENTITY patchelf-download-http "https://github.com/NixOS/patchelf/releases/download/&patchelf-version;/patchelf-&patchelf-version;.tar.gz">
   <!ENTITY patchelf-download-ftp  " ">
-  <!ENTITY patchelf-md5sum        "c11eaf4dcab682e1f9748b72b4e4d12b">
+  <!ENTITY patchelf-md5sum        "fc3f875f237980cb8e04b90886cccfe4">
   <!ENTITY patchelf-size          "476 KB">
-  <!ENTITY patchelf-buildsize     "27 MB (with tests)">
+  <!ENTITY patchelf-buildsize     "28 MB (with tests)">
   <!ENTITY patchelf-time          "0.1 SBU (with tests)">
 ]>
 
@@ -30,7 +30,7 @@
       utility to modify the dynamic linker and RPATH of ELF executables.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -81,7 +81,7 @@
 make</userinput></screen>
 
     <para>
-      To test the results, issue: <command>make check</command>.
+      To test the results, issue: <command>LC_ALL=C make check</command>.
     </para>
 
     <para>

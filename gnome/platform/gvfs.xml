@@ -4,17 +4,16 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY gvfs-download-http "&gnome-download-http;/gvfs/1.60/gvfs-&gvfs-version;.tar.xz">
+  <!ENTITY gvfs-download-http "&gnome-download-http;/gvfs/1.62/gvfs-&gvfs-version;.tar.xz">
   <!ENTITY gvfs-download-ftp  " ">
-  <!ENTITY gvfs-md5sum        "0a869772dd14f941c6b60e03fefb350b">
+  <!ENTITY gvfs-md5sum        "a509f63279e9ba30be0a9ebd3c110ed8">
   <!ENTITY gvfs-size          "1.3 MB">
-  <!ENTITY gvfs-buildsize     "36 MB">
-  <!ENTITY gvfs-time          "0.1 SBU (using parallelism=4)">
+  <!ENTITY gvfs-buildsize     "26 MB">
+  <!ENTITY gvfs-time          "0.2 SBU">
 ]>
 
 <sect1 id="gvfs" xreflabel="Gvfs-&gvfs-version;">
   <?dbhtml filename="gvfs.html"?>
-
 
   <title>Gvfs-&gvfs-version;</title>
 
@@ -31,7 +30,7 @@
       library.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -153,7 +152,6 @@ meson setup               \
       -D tmpfilesdir=no   \
       -D dnssd=false      \
       -D goa=false        \
-      -D google=false     \
       -D systemduserunitdir=no .. &amp;&amp;
 ninja</userinput></screen>
 
@@ -173,7 +171,7 @@ meson setup               \
       -D smb=false        \
       -D dnssd=false      \
       -D goa=false        \
-      -D google=false     .. &amp;&amp;
+      ..                  &amp;&amp;
 ninja</userinput></screen>
 
     <para>
@@ -202,9 +200,8 @@ ninja</userinput></screen>
       required if the corresponding dependency is not installed.
       Remove those where you have installed the corresponding application and
       wish to use it with <application>Gvfs</application>. The dnssd option
-      requires avahi and both goa and google require GNOME Online Accounts.
-      The google option also requires the libgdata package, which has been
-      removed from BLFS. The onedrive support requires the libmsgraph package.
+      requires avahi and goa requires GNOME Online Accounts.
+      The onedrive support requires the libmsgraph package.
     </para>
 
     <para revision="sysv">

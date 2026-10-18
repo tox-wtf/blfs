@@ -32,7 +32,7 @@
       in the binary format.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -104,15 +104,16 @@
 <screen><userinput>mkdir build &amp;&amp;
 cd    build &amp;&amp;
 
-meson setup ..                  \
-      --prefix=/usr             \
-      --buildtype=release       \
-      -D default_library=shared \
-      -D python=disabled        &amp;&amp;
+meson setup ..                 \
+      --prefix=/usr            \
+      --buildtype=release      \
+      --default-library=shared \
+      -D python=disabled       &amp;&amp;
 ninja</userinput></screen>
 
     <para>
-      To test the results, issue: <command>ninja test</command>.
+      To test the results, issue: <command>meson configure -D werror=false
+      &amp;&amp; ninja test</command>.
     </para>
 
     <para>
@@ -126,7 +127,7 @@ ninja</userinput></screen>
       format of the documentation by issuing the following command:
     </para>
 
-    <screen remap="doc"><userinput>pushd ../Documentation
+<screen remap="doc"><userinput>pushd ../Documentation
   latexmk -bibtex --pdf dtc-paper &amp;&amp;
   latexmk -bibtex --pdf dtc-paper -c
 popd</userinput></screen>
@@ -136,12 +137,23 @@ popd</userinput></screen>
       command:
     </para>
 
-    <screen role="root"><userinput>cp -R ../Documentation -T /usr/share/doc/dtc-&dtc-version;</userinput></screen>
+<screen role="root"><userinput>cp -R ../Documentation -T /usr/share/doc/dtc-&dtc-version;</userinput></screen>
 
+    <!-- https://github.com/dgibson/dtc/pull/192 -->
     <para>
       If you have installed
       <xref linkend='swig'/> and you wish to install the Python 3 bindings
-      of this package, build the Python 3 module:
+      of this package, fix the code for the compatibility with SWIG 4.5.0
+      or newer first:
+    </para>
+
+<screen role="nodump"><userinput>sed -e 's/PyString_FromString/PyUnicode_FromString/' \
+    -e 's/PyString_AsString/PyBytes_AsString/'       \
+    -e 's/PyInt_AsLong/PyLong_AsLong/'               \
+    -i ../pylibfdt/libfdt.i</userinput></screen>
+
+    <para>
+      Build the Python 3 module:
     </para>
 
     <screen role="nodump"><userinput>&build-wheel-cmd; ..</userinput></screen>
@@ -171,8 +183,8 @@ popd</userinput></screen>
     <para>
       <envar>CC='gcc -Wl,-z,noexecstack'</envar>: This variable prevents
       marking the shared libraries in the test suite as requiring executable
-      stack.  Glibc 2.41 or later has stopped allowing
-      <function>dlopen</function>ing such a shared library so the test
+      stack.  Glibc 2.41 or later has stopped allowing the use of
+      <function>dlopen</function> for such shared libraries so the test
       suite would fail.  But those shared libraries don't really need an
       executable stack, so we can use
       <parameter>-Wl,-z,noexecstack</parameter> to fix up the test suite.

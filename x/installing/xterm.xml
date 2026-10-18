@@ -6,7 +6,7 @@
 
   <!ENTITY xterm-download-http "https://invisible-mirror.net/archives/xterm/xterm-&xterm-version;.tgz">
   <!ENTITY xterm-download-ftp  " ">
-  <!ENTITY xterm-md5sum        "29b43931004f812483db02964865cbc9">
+  <!ENTITY xterm-md5sum        "e04d8065cf0847573dbd24995c905737">
   <!ENTITY xterm-size          "1.6 MB">
   <!ENTITY xterm-buildsize     "19 MB">
   <!ENTITY xterm-time          "0.2 SBU (with parallelism=4)">
@@ -32,7 +32,7 @@
 
     &not-katamari;
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

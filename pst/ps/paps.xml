@@ -4,12 +4,12 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY paps-download-http "https://github.com/dov/paps/releases/download/v&paps-version;/paps-&paps-version;.tar.gz">
+  <!ENTITY paps-download-http "https://github.com/dov/paps/releases/download/v&paps-version;/paps-&paps-version;.tar.xz">
   <!ENTITY paps-download-ftp  " ">
-  <!ENTITY paps-md5sum        "6bd661b8fd224adc3343a91e6521a4f2">
-  <!ENTITY paps-size          "220 KB">
-  <!ENTITY paps-buildsize     "4.0 MB">
-  <!ENTITY paps-time          "less than 0.1 SBU">
+  <!ENTITY paps-md5sum        "dcc3208e8414562607d51107ea2b69a6">
+  <!ENTITY paps-size          "72 KB">
+  <!ENTITY paps-buildsize     "12 MB">
+  <!ENTITY paps-time          "0.1 SBU">
 ]>
 
 <sect1 id="paps" xreflabel="paps-&paps-version;">
@@ -33,7 +33,7 @@
       <application>Pango</application>.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -68,7 +68,7 @@
         </para>
       </listitem>
     </itemizedlist>
-
+<!--
     <bridgehead renderas="sect3">Additional Downloads</bridgehead>
     <itemizedlist spacing='compact'>
       <listitem>
@@ -77,12 +77,12 @@
         </para>
       </listitem>
     </itemizedlist>
-
+-->
     <bridgehead renderas="sect3">paps Dependencies</bridgehead>
     <bridgehead renderas="sect4">Required</bridgehead>
     <para role="required">
       <xref linkend="fmt"/>,
-      <xref linkend='intltool'/>, and
+      <xref linkend="libpaper"/>, and
       <xref linkend="pango"/>
     </para>
 
@@ -91,43 +91,40 @@
       <xref linkend="doxygen"/>
     </para>
 
-
   </sect2>
 
   <sect2 role="installation">
     <title>Installation of paps</title>
 
-
     <para>
-      First fix problems with glib-2.81.0 and fmt-12.1.0 or later:
+      First fix a problem with a script that will be installed:
     </para>
 
-<screen><userinput>sed -i -r 's/g_utf8_(next|offset)/(char*) &amp;/' src/paps.cc &amp;&amp;
-patch -Np1 -i ../paps-0.8.0-fmt_fix-1.patch</userinput></screen>
+<screen><userinput>sed -i 's|/usr/local/share|/usr/share|' scripts/src-to-paps</userinput></screen>
 
     <para>
-      Install <application>paps</application> by running the following
+      Now, install <application>paps</application> by running the following
       commands:
     </para>
 
-<screen><userinput>./configure --prefix=/usr           \
-            --disable-Werror        \
-            --mandir=/usr/share/man \
-            CXX="g++ -std=gnu++17"  &amp;&amp;
-make</userinput></screen>
+<screen><userinput>mkdir build &amp;&amp;
+cd    build &amp;&amp;
+
+meson setup --prefix=/usr --buildtype=release .. &amp;&amp;
+ninja</userinput></screen>
 
     <para>
       This package does not come with a test suite.
     </para>
 
     <para>
-      Now, as the <systemitem class="username">root</systemitem> user:
+      Now, as the &root; user:
     </para>
 
-<screen role="root"><userinput>make install</userinput></screen>
+<screen role="root"><userinput>ninja install</userinput></screen>
 
   </sect2>
-
+<!--
   <sect2 role="commands">
     <title>Command Explanations</title>
 
@@ -138,7 +135,7 @@ make</userinput></screen>
     </para>
 
   </sect2>
-
+-->
   <sect2 role="content">
     <title>Contents</title>
 
@@ -148,7 +145,7 @@ make</userinput></screen>
       <segtitle>Installed Directory</segtitle>
 
       <seglistitem>
-        <seg>paps</seg>
+        <seg>paps and src-to-paps</seg>
         <seg>None</seg>
         <seg>None</seg>
       </seglistitem>
@@ -168,6 +165,18 @@ make</userinput></screen>
           </para>
           <indexterm zone="paps paps-prog">
             <primary sortas="b-paps">paps</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry id="paps-to-src">
+        <term><command>srd-to-paps</command></term>
+        <listitem>
+          <para>
+            is a small wrapper that prints source code with syntax highlighting
+          </para>
+          <indexterm zone="paps paps-to-src">
+            <primary sortas="b-paps-to-src">paps-to-src</primary>
           </indexterm>
         </listitem>
       </varlistentry>

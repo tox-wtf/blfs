@@ -6,9 +6,9 @@
 
   <!ENTITY qpdf-download-http "https://github.com/qpdf/qpdf/releases/download/v&qpdf-version;/qpdf-&qpdf-version;.tar.gz">
   <!ENTITY qpdf-download-ftp  " ">
-  <!ENTITY qpdf-md5sum        "6740cb19ae3c9ecdc9c1d012449de1c3">
+  <!ENTITY qpdf-md5sum        "f6e7caee5c4b9c7b87c009b5fa3eb8fb">
   <!ENTITY qpdf-size          "19 MB">
-  <!ENTITY qpdf-buildsize     "358 MB (add 2 MB for tests)">
+  <!ENTITY qpdf-buildsize     "382 MB (with tests)">
   <!ENTITY qpdf-time          "0.6 SBU (using parallelism=4; add 0.5 SBU for tests)">
 ]>
 
@@ -31,7 +31,7 @@
       transformations on PDF files.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

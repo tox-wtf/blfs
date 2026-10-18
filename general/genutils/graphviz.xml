@@ -6,9 +6,9 @@
 
   <!ENTITY graphviz-download-http "https://gitlab.com/graphviz/graphviz/-/archive/&graphviz-version;/graphviz-&graphviz-version;.tar.bz2">
   <!ENTITY graphviz-download-ftp  " ">
-  <!ENTITY graphviz-md5sum        "e2e894a94d9c07266f41b74c682a3e58">
-  <!ENTITY graphviz-size          "36 MB">
-  <!ENTITY graphviz-buildsize     "198 MB (6.8 MB installed)">
+  <!ENTITY graphviz-md5sum        "2e8b6e2aab94b4d154661fe95d1d4340">
+  <!ENTITY graphviz-size          "35 MB">
+  <!ENTITY graphviz-buildsize     "198 MB (6.9 MB installed)">
   <!ENTITY graphviz-time          "0.3 SBU (using parallelism=4)">
 ]>
 
@@ -34,7 +34,7 @@
       tools, libraries, and language bindings.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">

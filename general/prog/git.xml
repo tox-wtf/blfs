@@ -8,7 +8,7 @@
 
   <!ENTITY git-download-http "&git-root;/git-&git-version;.tar.xz">
   <!ENTITY git-download-ftp  " ">
-  <!ENTITY git-md5sum        "758c02a1b621cc0868ee0a0d99573e6b">
+  <!ENTITY git-md5sum        "d6ab87e82d6c76f9a31bfb5ab4e402dc">
 
   <!ENTITY git-size          "7.8 MB">
   <!-- but people keep forgetting that an install not only needs the net build
@@ -47,7 +47,7 @@
       <application>Team Foundation Server</application>.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
     
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -193,12 +193,16 @@ make</userinput></screen>
 
     <para>
       The test suite can be run in parallel mode. To run the test suite, issue:
-      <command>GIT_UNZIP=nonexist make test -k</command>.
+      <command>GIT_UNZIP=nonexist QUOTING_STYLE=literal make test -k</command>.
       The <envar>GIT_UNZIP</envar> setting prevents the test suite from
       using <command>unzip</command>, we need it because in BLFS
       <command>unzip</command> is a symlink to <command>bsdunzip</command>
-      which does not satisfy the assumption of some tests cases.  If any
-      test case fails, the list of failed tests can be shown via
+      which does not satisfy the assumption of some tests cases.
+      The <envar>QUOTING_STYLE</envar> setting prevents a test failure
+      with Coreutils 9.12. <!-- No "or later" here: see
+      https://github.com/coreutils/coreutils/issues/355, remove this
+      workaround when we update coreutils to 9.13.  -->
+      If any test case fails, the list of failed tests can be shown via
       <command>make -C t aggregate-results</command>.
     </para>
 
@@ -261,15 +265,15 @@ find        /usr/share/doc/git-&git-version; -type f -exec chmod 644 {} \;</user
     </para>
 
 <screen role="root"><userinput>mkdir -vp /usr/share/doc/git-&git-version;/man-pages/{html,text}         &amp;&amp;
-mv        /usr/share/doc/git-&git-version;/{git*.adoc,man-pages/text}     &amp;&amp;
+mv        /usr/share/doc/git-&git-version;/{git*.adoc,man-pages/text}    &amp;&amp;
 mv        /usr/share/doc/git-&git-version;/{git*.,index.,man-pages/}html &amp;&amp;
 
 mkdir -vp /usr/share/doc/git-&git-version;/technical/{html,text}         &amp;&amp;
-mv        /usr/share/doc/git-&git-version;/technical/{*.adoc,text}        &amp;&amp;
+mv        /usr/share/doc/git-&git-version;/technical/{*.adoc,text}       &amp;&amp;
 mv        /usr/share/doc/git-&git-version;/technical/{*.,}html           &amp;&amp;
 
 mkdir -vp /usr/share/doc/git-&git-version;/howto/{html,text}             &amp;&amp;
-mv        /usr/share/doc/git-&git-version;/howto/{*.adoc,text}            &amp;&amp;
+mv        /usr/share/doc/git-&git-version;/howto/{*.adoc,text}           &amp;&amp;
 mv        /usr/share/doc/git-&git-version;/howto/{*.,}html               &amp;&amp;
 
 sed -i '/^&lt;a href=/s|howto/|&amp;html/|' /usr/share/doc/git-&git-version;/howto-index.html &amp;&amp;
@@ -389,7 +393,7 @@ sed -i '/^\* link:/s|howto/|&amp;html/|' /usr/share/doc/git-&git-version;/howto-
         <term><command>git</command></term>
         <listitem>
           <para>
-            is the stupid content tracker
+            is the content tracker
           </para>
           <indexterm zone="git git-prog">
             <primary sortas="b-git">git</primary>

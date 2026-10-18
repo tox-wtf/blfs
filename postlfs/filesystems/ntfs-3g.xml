@@ -5,11 +5,12 @@
   %general-entities;
 
   <!ENTITY ntfs-3g-download-http
-    "https://github.com/tuxera/ntfs-3g/archive/&ntfs-3g-version;/ntfs-3g-&ntfs-3g-version;.tar.gz">
+    "https://tuxera.com/opensource/ntfs-3g_ntfsprogs-&ntfs-3g-version;.tgz">
+
   <!ENTITY ntfs-3g-download-ftp  " ">
-  <!ENTITY ntfs-3g-md5sum        "e92f169f58eda3307f2ca128bd42792f">
-  <!ENTITY ntfs-3g-size          "884 KB">
-  <!ENTITY ntfs-3g-buildsize     "26 MB">
+  <!ENTITY ntfs-3g-md5sum        "e46c76e3c19e2eb138b62884b1348482">
+  <!ENTITY ntfs-3g-size          "1.3 MB">
+  <!ENTITY ntfs-3g-buildsize     "23 MB">
   <!ENTITY ntfs-3g-time          "0.2 SBU">
 ]>
 
@@ -24,19 +25,36 @@
   </indexterm>
 
   <sect2 role="package">
-    <title>Introduction to Ntfs-3g</title>
+    <title>Introduction to ntfs-3g</title>
 
     <note>
       <para id='ntfs3-kernel'>
-        A new read-write driver for NTFS, called NTFS3, has been added
-        into the Linux kernel since the 5.15 release. The performance of NTFS3
-        is much better than ntfs-3g. To enable NTFS3, enable the following
-        options in the kernel configuration and recompile the kernel if
-        necessary:
+        As of Linux 7.1 there are two competing in-kernel NTFS read-write
+        drivers, named NTFS and NTFS3.  Their performance is much better
+        than ntfs-3g.  As some applications invoke <command>mount</command>
+        with <option>-t ntfs</option> but others may use
+        <option>-t ntfs3</option> instead (the latter is also the default if
+        no <option>-t</option> option is passed), to make both options
+        work, enable both drivers:
       </para>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
       href="ntfs3-kernel.xml"/>
+
+      <para>
+        If you select NTFS3 as a part of the main kernel image
+        (<literal>*</literal> instead of <literal>M</literal>), enabling
+        NTFS (as a module or as a part of the main kernel image)
+        will immediately demote NTFS3 to a module.
+      </para>
+
+      <para>
+        Due to <ulink url='https://git.kernel.org/torvalds/c/35e4b60792cd'>a
+        bug in the kernel configuration system</ulink> of Linux 7.1 and later,
+        NTFS3 is rendered in the submenu of NTFS (different from the
+        example above).  Please note that it does not mean NTFS3 is
+        an extension of NTFS; they are two distinct drivers.
+      </para>
 
     <indexterm zone="ntfs-3g ntfs3-kernel">
       <primary sortas="d-ntfs3">NTFS read-write support in kernel</primary>
@@ -50,16 +68,16 @@
     </note>
 
     <para>
-      The <application>Ntfs-3g</application> package contains a stable,
+      The <application>ntfs-3g</application> package contains a stable,
       read-write open source driver for NTFS partitions. NTFS partitions are
-      used by most Microsoft operating systems. Ntfs-3g allows you to mount
+      used by most Microsoft operating systems. ntfs-3g allows you to mount
       NTFS partitions in read-write mode from your Linux system. It uses the
       FUSE kernel module to be able to implement NTFS support in userspace.
       The package also contains various utilities useful for manipulating NTFS
       partitions.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -95,7 +113,12 @@
       </listitem>
     </itemizedlist>
 
-    <bridgehead renderas="sect3">Ntfs-3g Dependencies</bridgehead>
+    <bridgehead renderas="sect3">ntfs-3g Dependencies</bridgehead>
+
+    <bridgehead renderas="sect4">Required</bridgehead>
+    <para role="required">
+      <xref linkend="libgcrypt"/>
+    </para>
 
     <bridgehead renderas="sect4">Optional</bridgehead>
     <para role="optional">
@@ -129,17 +152,24 @@
   </sect2>
 
   <sect2 role="installation">
-    <title>Installation of Ntfs-3g</title>
+    <title>Installation of ntfs-3g</title>
+
+    <note>
+      <para>
+        This package extracts to ntfs-3g-&ntfs-3g-version;.
+      </para>
+    </note>
 
     <para>
-      Install <application>Ntfs-3g</application> by running the following
+      Install <application>ntfs-3g</application> by running the following
       commands:
     </para>
 
-<screen><userinput>./autogen.sh &amp;&amp;
+<!-- <screen><userinput>./autogen.sh &amp;&amp; -->
 
-./configure --prefix=/usr        \
+<screen><userinput>./configure --prefix=/usr        \
             --disable-static     \
+            --enable-crypto      \
             --with-fuse=internal \
             --docdir=/usr/share/doc/ntfs-3g-&ntfs-3g-version; &amp;&amp;
 make</userinput></screen>
@@ -193,7 +223,7 @@ ln -svf ntfs-3g.8 /usr/share/man/man8/mount.ntfs.8</userinput></screen>
   </sect2>
 
   <sect2 role="configuration">
-    <title>Using Ntfs-3g</title>
+    <title>Using ntfs-3g</title>
 
     <para>
       To mount a Windows partition at boot time, put a line like this in
@@ -490,7 +520,7 @@ ln -svf ntfs-3g.8 /usr/share/man/man8/mount.ntfs.8</userinput></screen>
         <term><filename class="libraryfile">libntfs-3g.so</filename></term>
         <listitem>
           <para>
-            contains the Ntfs-3g API functions
+            contains the ntfs-3g API functions
           </para>
           <indexterm zone="ntfs-3g libntfs-3g">
             <primary sortas="c-libntfs-3g">libntfs-3g.so</primary>

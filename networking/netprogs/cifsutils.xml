@@ -6,10 +6,10 @@
 
   <!ENTITY cifsutils-download-http "https://www.samba.org/ftp/linux-cifs/cifs-utils/cifs-utils-&cifsutils-version;.tar.bz2">
   <!ENTITY cifsutils-download-ftp  " ">
-  <!ENTITY cifsutils-md5sum        "b5f7b9c4d58f5cf15f55f6216812eb83">
-  <!ENTITY cifsutils-size          "232 KB">
-  <!ENTITY cifsutils-buildsize     "5.0 MB">
-  <!ENTITY cifsutils-time          "0.1 SBU">
+  <!ENTITY cifsutils-md5sum        "cb1253a501b7468e63a9a5ab453565ba">
+  <!ENTITY cifsutils-size          "452 KB">
+  <!ENTITY cifsutils-buildsize     "4.9 MB">
+  <!ENTITY cifsutils-time          "less than 0.1 SBU">
 ]>
 
 <sect1 id="cifsutils" xreflabel="cifs-utils-&cifsutils-version;">
@@ -30,7 +30,7 @@
       mounting SMB/CIFS shares on a Linux system.
     </para>
 
-    &lfs130_checked;
+    &lfs131_checked;
 
     <bridgehead renderas="sect3">Package Information</bridgehead>
     <itemizedlist spacing="compact">
@@ -118,11 +118,13 @@
   <sect2 role="installation">
     <title>Installation of cifs-utils</title>
 
+<!--
     <para>
       First, make the build system compatible with GCC-15:
     </para>
 
 <screen><userinput remap="pre">autoreconf -fiv</userinput></screen>
+-->
 
     <para>
       Install <application>cifs-utils</application> by running the following

@@ -43,6 +43,10 @@
       <para>October 20th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to certifi-2026.10.19 (Python dependency) (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24148">#24148</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to sphinx-9.1.1 (Python module). Fixes
           <ulink url="&blfs-ticket-root;24144">#24144</ulink>.</para>
         </listitem>

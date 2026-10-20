@@ -43,6 +43,10 @@
       <para>October 20th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to URI-5.40 (Perl module). Fixes
+          <ulink url="&blfs-ticket-root;24143">#24143</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libunistring-1.5. Fixes
           <ulink url="&blfs-ticket-root;24141">#24141</ulink>.</para>
         </listitem>

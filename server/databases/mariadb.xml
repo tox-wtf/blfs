@@ -274,7 +274,7 @@ mv -v /usr/share/user_map.conf /etc/security</userinput></screen>
 
     <para>
       <option>-D WITHOUT_SERVER=ON</option>: Use this
-      :wqswitch if you don't want the server and would like to build the client
+      switch if you don't want the server and would like to build the client
       only.
     </para>
 

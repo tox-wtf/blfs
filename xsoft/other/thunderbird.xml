@@ -6,9 +6,9 @@
 
   <!ENTITY thunderbird-download-http "&mozilla-http;/thunderbird/releases/&thunderbird-version;esr/source/thunderbird-&thunderbird-version;esr.source.tar.xz">
   <!ENTITY thunderbird-download-ftp  " ">
-  <!ENTITY thunderbird-md5sum        "91346c7d2aaef398ffa473afd19d0489">
-  <!ENTITY thunderbird-size          "895 MB">
-  <!ENTITY thunderbird-buildsize     "11.0 GB (295 MB installed)">
+  <!ENTITY thunderbird-md5sum        "85e1b8738e8945f0ee09f67250f33cd3">
+  <!ENTITY thunderbird-size          "892 MB">
+  <!ENTITY thunderbird-buildsize     "11.0 GB (296 MB installed)">
   <!ENTITY thunderbird-time          "16 SBU (on a 8-core machine)">
   <!-- Removed the -j1 time because python and rust do not obey it, although
        the C/C++ code appears to obey it.
@@ -80,7 +80,7 @@
       <listitem>
         <para>
           Required patch:
-          <ulink url="&patch-root;/thunderbird-&thunderbird-version;-clang_23_rust_1_98-1.patch"/>
+          <ulink url="&patch-root;/thunderbird-&thunderbird-version;-clang_23-1.patch"/>
         </para>
       </listitem>
     </itemizedlist>
@@ -152,11 +152,10 @@
     </note>
 
     <para>
-      Fix building this package with clang 23 or newer, or rustc 1.98 or
-      newer:
+      Fix building this package with clang 23 or newer:
     </para>
 
-<screen><userinput remap="pre">patch -Np1 -i ../thunderbird-&thunderbird-version;-clang_23_rust_1_98-1.patch</userinput></screen>
+<screen><userinput remap="pre">patch -Np1 -i ../thunderbird-&thunderbird-version;-clang_23-1.patch</userinput></screen>
 
     <para>
       The configuration of <application>Thunderbird</application> is

@@ -10,7 +10,7 @@
 
   <!-- NB with stylo, much of the build uses rust, and therefore cargo files.
     But the extra cached cargo files, if any, seem to be minimal -->
-  <!ENTITY firefox-buildsize     "8.9 GB (268 MB installed) without tests">
+  <!ENTITY firefox-buildsize     "9.0 GB (268 MB installed) without tests">
   <!-- editors: with ff63 and rust-1.29, ./mach build -j4 is probably the
    most practical way to get a timing on a machine with more cores, if taking
    cores offline is not practical. If in doubt, round up -->
@@ -80,7 +80,7 @@
       <listitem>
         <para>
           Required patch:
-          <ulink url="&patch-root;/firefox-&firefox-version;-clang_23_rust_1_98-1.patch"/>
+          <ulink url="&patch-root;/firefox-&firefox-version;-clang_23-1.patch"/>
         </para>
       </listitem>
     </itemizedlist>
@@ -293,11 +293,10 @@ MOZ_APP_REMOTINGNAME=firefox</literal>
 EOF</userinput></screen>
 
     <para>
-      Fix building this package with clang 23 or newer, or rustc 1.98 or
-      newer:
+      Fix building this package with clang 23 or newer:
     </para>
 
-<screen><userinput remap="pre">patch -Np1 -i ../firefox-&firefox-version;-clang_23_rust_1_98-1.patch</userinput></screen>
+<screen><userinput remap="pre">patch -Np1 -i ../firefox-&firefox-version;-clang_23-1.patch</userinput></screen>
 
     <para>
       If the geolocation APIs are needed:

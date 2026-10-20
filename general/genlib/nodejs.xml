@@ -6,9 +6,9 @@
 
   <!ENTITY nodejs-download-http "https://nodejs.org/dist/v&nodejs-version;/node-v&nodejs-version;.tar.xz">
   <!ENTITY nodejs-download-ftp  " ">
-  <!ENTITY nodejs-md5sum        "ebb3c52e06547a403929a306e6ecd759">
+  <!ENTITY nodejs-md5sum        "b3c6a14d4ba2bbad7946682251c337e7">
   <!ENTITY nodejs-size          "60 MB">
-  <!ENTITY nodejs-buildsize     "1.8 GB (with tests)">
+  <!ENTITY nodejs-buildsize     "2.0 GB (with tests)">
   <!ENTITY nodejs-time          "19 SBU (add 5.0 SBU for tests: both using
                                  parallelism=8 and 8 CPUs online, parts of the
                                  tests will use all online CPUs)">

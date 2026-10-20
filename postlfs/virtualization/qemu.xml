@@ -124,7 +124,7 @@
       <xref linkend="lzo"/>,
       <xref linkend="nettle"/>,
       <xref linkend="mesa"/>,
-      <xref role="nodep" linkend="vte"/>,
+      <xref linkend="vte"/>,
 <!-- libcacard has been a standalone project since qemu-2.5.-->
       <ulink url="https://www.capstone-engine.org/">capstone</ulink>,
       <ulink url="https://github.com/ceph/ceph/">ceph</ulink>,

@@ -4,7 +4,7 @@
   <!ENTITY % general-entities SYSTEM "../../general.ent">
   %general-entities;
 
-  <!ENTITY glycin-buildsize     "1.6 GB (with documentation)">
+  <!ENTITY glycin-buildsize     "1.5 GB (with documentation)">
   <!ENTITY glycin-time          "2.9 SBU (with documentation)">
 ]>
 

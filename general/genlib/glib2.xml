@@ -6,9 +6,9 @@
 
   <!ENTITY glib2-download-http "&gnome-download-http;/glib/&glib2-minor;/glib-&glib2-version;.tar.xz">
   <!ENTITY glib2-download-ftp  " ">
-  <!ENTITY glib2-md5sum        "ecbf321b420f66e110a63bc313d9734e">
-  <!ENTITY glib2-size          "5.6 MB">
-  <!ENTITY glib2-buildsize     "301 MB (with tests and documentation)">
+  <!ENTITY glib2-md5sum        "e8c0f4952e5346bc5e388f77cf25c507">
+  <!ENTITY glib2-size          "5.7 MB">
+  <!ENTITY glib2-buildsize     "424 MB (with tests and documentation)">
   <!ENTITY glib2-time          "0.7 SBU (add 0.5 SBU for tests; both using parallelism=4)">
 
   <!ENTITY gobject-introspection-download-http
@@ -258,6 +258,9 @@ ninja -C gi-build</userinput></screen>
     <para>
       To test the results of GObject Introspection, issue:
       <command>ninja -C gi-build test</command>.
+      <!-- https://gitlab.gnome.org/GNOME/gobject-introspection/-/merge_requests/564 -->
+      One test named <filename>test_ccompiler.py</filename> is known
+      to fail with setuptools 84 or newer.
     </para>
 
     <para>

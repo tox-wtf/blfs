@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+
+  <!ENTITY gnome-text-editor-download-http
+           "&gnome-download-http;/gnome-text-editor/&gnome-51;/gnome-text-editor-&gnome-text-editor-version;.tar.xz">
+  <!ENTITY gnome-text-editor-download-ftp  " ">
+  <!ENTITY gnome-text-editor-md5sum        "c6b9ba7aba2b17dbef16eab3d49d3f19">
+  <!ENTITY gnome-text-editor-size          "585 KB">
+  <!ENTITY gnome-text-editor-buildsize     "13 MB">
+  <!ENTITY gnome-text-editor-time          "0.2 SBU">
+]>
+
+<sect1 id="gnome-text-editor" xreflabel="gnome-text-editor-&gnome-text-editor-version;">
+  <?dbhtml filename="gnome-text-editor.html"?>
+
+
+  <title>gnome-text-editor-&gnome-text-editor-version;</title>
+
+  <indexterm zone="gnome-text-editor">
+    <primary sortas="a-gnome-text-editor">gnome-text-editor</primary>
+  </indexterm>
+
+  <sect2 role="package">
+    <title>Introduction to gnome-text-editor</title>
+
+    <para>
+      <application>gnome-text-editor</application> is a  simple text editor that 
+      focuses on session management. It works hard to keep track of changes 
+      and state even if you quit the application. You can come back to your 
+      work even if you've never saved it to a file.
+    </para>
+
+    &lfs131_checked;
+
+    <bridgehead renderas="sect3">Package Information</bridgehead>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          Download (HTTP): <ulink url="&gnome-text-editor-download-http;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download (FTP): <ulink url="&gnome-text-editor-download-ftp;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download MD5 sum: &gnome-text-editor-md5sum;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download size: &gnome-text-editor-size;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Estimated disk space required: &gnome-text-editor-buildsize;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Estimated build time: &gnome-text-editor-time;
+        </para>
+      </listitem>
+    </itemizedlist>
+
+    <bridgehead renderas="sect3">gnome-text-editor Dependencies</bridgehead>
+
+    <bridgehead renderas="sect4">Required</bridgehead>
+    <para role="required">
+      <xref linkend="appstream"/>,
+      <xref linkend="editorconfig-core-c"/>,
+      <xref linkend="gtksourceview5"/>, 
+      <xref linkend="libadwaita1"/>,
+      <xref linkend="libspelling"/>
+    </para>
+
+    <bridgehead renderas="sect4">Recommended</bridgehead>
+    <para role="recommended">
+      <xref linkend="itstool"/>
+    </para>
+
+  </sect2>
+
+  <sect2 role="installation">
+    <title>Installation of gnome-text-editor</title>
+
+    <para>
+      Install <application>gnome-text-editor</application> by running the following
+      commands:
+    </para>
+
+<screen><userinput>mkdir build &amp;&amp;
+cd    build &amp;&amp;
+
+meson setup ..            \
+      --prefix=/usr       \
+      --buildtype=release &amp;&amp;
+
+ninja</userinput></screen>
+
+    <para>
+      To test the results, run: <command>ninja test</command>,
+    </para>
+
+    <para>
+      Now, as the &root; user:
+    </para>
+
+<screen role="root"><userinput>ninja install</userinput></screen>
+
+  </sect2>
+<!--
+  <sect2 role="commands">
+    <title>Command Explanations</title>
+
+    <para>
+      <option>-D gspell-plugin=no</option>: Use this option to disable
+      building the <xref linkend="gspell"/> plugin if you have not
+      installed <application>gspell</application>.
+    </para>
+
+  </sect2>
+-->
+  <sect2 role="content">
+    <title>Contents</title>
+
+    <segmentedlist>
+      <segtitle>Installed Program</segtitle>
+      <segtitle>Installed Libraries</segtitle>
+      <segtitle>Installed Directories</segtitle>
+
+      <seglistitem>
+        <seg>
+          gnome-text-editor
+        </seg>
+        <seg>
+          None
+        </seg>
+        <seg>
+          /usr/share/help/*/gnome-text-editor
+        </seg>
+      </seglistitem>
+    </segmentedlist>
+
+    <variablelist>
+      <bridgehead renderas="sect3">Short Descriptions</bridgehead>
+      <?dbfo list-presentation="list"?>
+      <?dbhtml list-presentation="table"?>
+
+      <varlistentry id="gnome-text-editor-prog">
+        <term><command>gnome-text-editor</command></term>
+        <listitem>
+          <para>
+            is a text editor for GNOME
+          </para>
+          <indexterm zone="gnome-text-editor gnome-text-editor-prog">
+            <primary sortas="b-gnome-text-editor">gnome-text-editor</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+
+    </variablelist>
+
+  </sect2>
+
+</sect1>

@@ -100,12 +100,14 @@
     <sect3 role="installation">
       <title>Installation of Sphinx</title>
 
+<!--
       <para>
         First allow <application>sphinx</application> to use
         <xref linkend="docutils"/>:
       </para>
 
 <screen><userinput>sed -i 's/0.23/0.24/' pyproject.toml</userinput></screen>
+-->
 
     <para>Build the module:</para>
 

@@ -43,6 +43,10 @@
       <para>October 21st, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to sphinx-9.2.0 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;24152">#24152</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to gjs-1.90.1. Fixes
           <ulink url="&blfs-ticket-root;24146">#24146</ulink>.</para>
         </listitem>

@@ -43,6 +43,10 @@
       <para>October 22nd, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to node.js-26.12.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24160">#24160</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to openldap-LMDB-1.0.3. Fixes
           <ulink url="&blfs-ticket-root;24162">#24162</ulink>.</para>
         </listitem>

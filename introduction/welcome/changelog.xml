@@ -46,7 +46,7 @@
           <para>[pierre] - Update to BLFS Systemd Units 20261022. This 
           introduces a major change in installation behavior since units
           are not enabled by default anymore. Now the instructions for
-          enabling units are in the book.
+          enabling units are in the book.</para>
         </listitem>
       </itemizedlist>
     </listitem>

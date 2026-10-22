@@ -43,6 +43,10 @@
       <para>October 22nd, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to 7zip-26.05 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24161">#24161</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to brotli-1.2.1 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24159">#24159</ulink>.</para>
         </listitem>

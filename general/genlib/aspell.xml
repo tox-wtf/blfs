@@ -80,11 +80,10 @@
       </listitem>
       <listitem>
         <para>
-          You'll need to download at least one dictionary. The English dictionary
-          is given as an example below. Dictionaries in many other languages can be
+          You'll need to download at least one dictionary, for example the
+          English dictionary: <ulink url="&aspell-en-dict-url;"/>.
+          Dictionaries in many other languages can be
           found at <ulink url="&gnu-http;/aspell/dict"/>.
-
-          Aspell English dictionary: <ulink url="&aspell-en-dict-url;"/>
         </para>
       </listitem>
     </itemizedlist>

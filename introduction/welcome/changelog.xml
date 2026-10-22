@@ -40,6 +40,74 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 21st, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[pierre] - Add gnome-extensions-app-51.alpha. Fixes
+          <ulink url="&blfs-ticket-root;24150">#24150</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 20th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to thunderbird-153.5.1esr (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24151">#24151</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to firefox-153.5.1esr (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24147">#24147</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to nss-3.131.1 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24149">#24149</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to certifi-2026.10.19 (Python dependency) (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24148">#24148</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to sphinx-9.1.1 (Python module). Fixes
+          <ulink url="&blfs-ticket-root;24144">#24144</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to URI-5.40 (Perl module). Fixes
+          <ulink url="&blfs-ticket-root;24143">#24143</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libunistring-1.5. Fixes
+          <ulink url="&blfs-ticket-root;24141">#24141</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libical-4.0.7. Fixes
+          <ulink url="&blfs-ticket-root;24140">#24140</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 19th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to gdm-51.1. Fixes
+          <ulink url="&blfs-ticket-root;24139">#24139</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
+      <para>October 18th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to libnotify-0.8.9. Fixes
+          <ulink url="&blfs-ticket-root;24138">#24138</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 17th, 2026</para>
       <itemizedlist>
         <listitem>

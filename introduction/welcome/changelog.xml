@@ -43,6 +43,10 @@
       <para>October 22nd, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to nano-9.3. Fixes
+          <ulink url="&blfs-ticket-root;24158">#24158</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[pierre] - Update to BLFS Systemd Units 20261022. This 
           introduces a major change in installation behavior since units
           are not enabled by default anymore. Now the instructions for

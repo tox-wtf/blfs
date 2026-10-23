@@ -8,8 +8,8 @@
   <!ENTITY bind-download-ftp  " ">
   <!ENTITY bind-md5sum        "&bind-md5;">
   <!ENTITY bind-size          "5.7 MB">
-  <!ENTITY bind-buildsize     "157 MB (23 MB installed)">
-  <!ENTITY bind-time          "0.4 SBU (with parallelism=4; about 8 minutes somewhat processor independent, to run the complete test suite)">
+  <!ENTITY bind-buildsize     "124 MB (add 88 MB or tests; 23 MB installed)">
+  <!ENTITY bind-time          "0.4 SBU (with parallelism=4; about 58 minutes somewhat processor independent, to run the complete test suite)">
 ]>
 
 <sect1 id="bind" xreflabel="BIND-&bind-version;">
@@ -550,6 +550,13 @@ EOF</userinput></screen>
 
 <screen role="root" revision="sysv"><userinput>/etc/rc.d/init.d/bind start</userinput></screen>
 <screen role="root" revision="systemd"><userinput>systemctl start named</userinput></screen>
+
+      <para revision='systemd'>
+        You can also enable the unit at startup as the &root; user with:
+      </para>
+
+<screen revision='systemd'
+        role='root'><userinput>systemctl enable named</userinput></screen>
 
     </sect3>
 

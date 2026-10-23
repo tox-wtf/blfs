@@ -6,11 +6,15 @@
 
   <!ENTITY unbound-download-http "https://nlnetlabs.nl/downloads/unbound/unbound-&unbound-version;.tar.gz">
   <!ENTITY unbound-download-ftp  " ">
-  <!ENTITY unbound-md5sum        "dce631cc8c882ebc707dade27e7fe6f3">
+  <!ENTITY unbound-md5sum        "e387641957ace96c83c9e150c124b449">
   <!ENTITY unbound-size          "6.6 MB">
-  <!ENTITY unbound-buildsize     "196 MB (with docs; add 11 MB for tests)">
-  <!ENTITY unbound-time          "0.3 SBU (Using parallelism=4; with docs; add 0.1 SBU for tests)">
+  <!ENTITY unbound-buildsize     "230 MB (with docs and tests)">
+  <!ENTITY unbound-time          "0.4 SBU (Using parallelism=4; with docs and tests)">
 ]>
+
+  <!-- Docs will get a separate build size eventually since it shoots up the
+       size by quite a bit. The build time however is negligable and makes
+       little difference. -->
 
 <sect1 id="unbound" xreflabel="Unbound-&unbound-version;" revision='sysv'>
   <?dbhtml filename="unbound.html"?>
@@ -125,11 +129,25 @@ useradd -c "Unbound DNS Resolver" -d /var/lib/unbound -u 88 \
 make</userinput></screen>
 
     <para>
-      If you have <xref linkend="doxygen"/> package installed and want to build
-      html documentation, run the following command:
+      If you have <xref linkend="doxygen"/> and <xref linkend="sphinx"/>
+      installed, the HTML documentation can built with the following commands
+      <footnote><para>
+        Documentation is built this way since the build system will
+        incorrectly generate the commands that build the documentation. This
+        can lead to situations where <command>doxygen</command> becomes blank
+        and <command>sphinx-build</command> can become either
+        <command>sphinx-build-</command> or
+        <command>sphinx-build-&python3-major;</command>, depending on what is
+        being passed to <command>./configure</command>.
+      </para></footnote>:
     </para>
 
-<screen remap="doc"><userinput>make doc</userinput></screen>
+<screen
+  remap="doc"><userinput>doxygen doc/unbound.doxygen               &amp;&amp;
+sphinx-build -b html pythonmod/doc         \
+                     doc/html/pythonmod   &amp;&amp;
+sphinx-build -b html libunbound/python/doc \
+                     doc/html/pyunbound</userinput></screen>
 
     <para>
       To test the results, issue <command>make check</command>.
@@ -148,8 +166,11 @@ mv -v /usr/sbin/unbound-host /usr/bin/</userinput></screen>
     </para>
 
 <screen role="root"
-        remap="doc"><userinput>install -v -m755 -d /usr/share/doc/unbound-&unbound-version; &amp;&amp;
-install -v -m644 doc/html/* /usr/share/doc/unbound-&unbound-version;</userinput></screen>
+  remap="doc"><userinput>install -v -m755 -d /usr/share/doc/unbound-&unbound-version; &amp;&amp;
+cp -vR doc/html/*   /usr/share/doc/unbound-&unbound-version;</userinput></screen>
+
+    <!-- install for actually installing the HTML gave a non-zero error since
+         it omits directories within doc/html. So cp -vR is used instead. -->
 
   </sect2>
 
@@ -248,6 +269,13 @@ install -v -m644 doc/html/* /usr/share/doc/unbound-&unbound-version;</userinput>
       </indexterm>
 
 <screen role="root"><userinput>make install-unbound</userinput></screen>
+
+      <para revision='systemd'>
+        You can then enable the unit at startup as the &root; user with:
+      </para>
+
+<screen revision='systemd'
+        role='root'><userinput>systemctl enable unbound</userinput></screen>
 
     </sect3>
 

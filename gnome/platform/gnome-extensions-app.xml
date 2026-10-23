@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % general-entities SYSTEM "../../general.ent">
+  %general-entities;
+
+  <!ENTITY gnome-extensions-app-download-http
+           "&gnome-download-http;/gnome-extensions-app/&gnome-51;/gnome-extensions-app-&gnome-extensions-app-version;.tar.xz">
+  <!ENTITY gnome-extensions-app-download-ftp  " ">
+  <!ENTITY gnome-extensions-app-md5sum        "4918c0fa74d0ec9ec7598b944987b13e">
+  <!ENTITY gnome-extensions-app-size          "227 KB">
+  <!ENTITY gnome-extensions-app-buildsize     "5.9 MB">
+  <!ENTITY gnome-extensions-app-time          "less than 0.1 SBU">
+]>
+
+<sect1 id="gnome-extensions-app" xreflabel="gnome-extensions-app-&gnome-extensions-app-version;">
+  <?dbhtml filename="gnome-extensions-app.html"?>
+
+
+  <title>gnome-extensions-app-&gnome-extensions-app-version;</title>
+
+  <indexterm zone="gnome-extensions-app">
+    <primary sortas="a-gnome-extensions-app">gnome-extensions-app</primary>
+  </indexterm>
+
+  <sect2 role="package">
+    <title>Introduction to GNOME Extensions App</title>
+
+    <para>
+      The <application>GNOME Extensions App</application> package contains
+      a graphical manager for the GNOME Shell Extensions.
+    </para>
+
+    &lfs131_checked;
+
+    <bridgehead renderas="sect3">Package Information</bridgehead>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          Download (HTTP): <ulink url="&gnome-extensions-app-download-http;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download (FTP): <ulink url="&gnome-extensions-app-download-ftp;"/>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download MD5 sum: &gnome-extensions-app-md5sum;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Download size: &gnome-extensions-app-size;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Estimated disk space required: &gnome-extensions-app-buildsize;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Estimated build time: &gnome-extensions-app-time;
+        </para>
+      </listitem>
+    </itemizedlist>
+
+    <bridgehead renderas="sect3">GNOME Extensions App Dependencies</bridgehead>
+
+    <bridgehead renderas="sect4">Required</bridgehead>
+    <para role="required">
+      <xref linkend="gjs"/>
+    </para>
+
+  </sect2>
+
+  <sect2 role="installation">
+    <title>Installation of GNOME Extensions App</title>
+
+    <para>
+      Install <application>GNOME Extensions App</application> by running the
+      following commands:
+    </para>
+
+<screen><userinput>mkdir build &amp;&amp;
+cd    build &amp;&amp;
+
+meson setup --prefix=/usr ..</userinput></screen>
+
+    <para>
+      This package does not come with a test suite.
+    </para>
+
+    <para>
+      Now, as the <systemitem class="username">root</systemitem> user:
+    </para>
+
+<screen role="root"><userinput>ninja install</userinput></screen>
+
+  </sect2>
+
+  <sect2 role="content">
+    <title>Contents</title>
+
+    <segmentedlist>
+      <segtitle>Installed Programs</segtitle>
+      <segtitle>Installed Libraries</segtitle>
+      <segtitle>Installed Directories</segtitle>
+
+      <seglistitem>
+       <seg>
+          gnome-extensions-app
+        </seg>
+       <seg>
+          None
+        </seg>
+        <seg>
+          /usr/lib/gnome-extensions-app and
+          /usr/share/gnome-extensions-app
+        </seg>
+      </seglistitem>
+    </segmentedlist>
+
+    <variablelist>
+      <bridgehead renderas="sect3">Short Descriptions</bridgehead>
+      <?dbfo list-presentation="list"?>
+      <?dbhtml list-presentation="table"?>
+
+      <varlistentry id="gnome-extensions-app-prog">
+        <term><command>gnome-extensions-app</command></term>
+        <listitem>
+          <para>
+            is a graphical manager for GNOME shell extensions
+          </para>
+          <indexterm zone="gnome-extensions-app gnome-extensions-app-prog">
+            <primary sortas="b-gnome-extensions-app">gnome-extensions-app</primary>
+          </indexterm>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+  </sect2>
+
+</sect1>

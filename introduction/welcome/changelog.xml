@@ -43,6 +43,10 @@
       <para>October 23rd, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[jlocash] - Update to pipewire-1.6.10. Fixes
+          <ulink url="&blfs-ticket-root;24170">#24170</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to ruby-4.0.9. Fixes
           <ulink url="&blfs-ticket-root;24168">#24168</ulink>.</para>
         </listitem>

@@ -6,10 +6,10 @@
 
   <!ENTITY unbound-download-http "https://nlnetlabs.nl/downloads/unbound/unbound-&unbound-version;.tar.gz">
   <!ENTITY unbound-download-ftp  " ">
-  <!ENTITY unbound-md5sum        "dce631cc8c882ebc707dade27e7fe6f3">
+  <!ENTITY unbound-md5sum        "e387641957ace96c83c9e150c124b449">
   <!ENTITY unbound-size          "6.6 MB">
-  <!ENTITY unbound-buildsize     "196 MB (with docs; add 11 MB for tests)">
-  <!ENTITY unbound-time          "0.3 SBU (Using parallelism=4; with docs; add 0.1 SBU for tests)">
+  <!ENTITY unbound-buildsize     "96 MB (with docs and tests)">
+  <!ENTITY unbound-time          "0.4 SBU (Using parallelism=4; with docs and tests)">
 ]>
 
 <sect1 id="unbound" xreflabel="Unbound-&unbound-version;" revision='sysv'>

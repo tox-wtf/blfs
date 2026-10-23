@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 23rd, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to icu4c-79.1. Fixes
+          <ulink url="&blfs-ticket-root;24165">#24165</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 22nd, 2026</para>
       <itemizedlist>
         <listitem revision="sysv">

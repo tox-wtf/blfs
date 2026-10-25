@@ -43,6 +43,10 @@
       <para>October 25th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to xfsprogs-7.2.1. Fixes
+          <ulink url="&blfs-ticket-root;24142">#24142</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to systemd-262.1. Fixes
           <ulink url="&blfs-ticket-root;24131">#24131</ulink>.</para>
         </listitem>

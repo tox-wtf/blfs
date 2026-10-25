@@ -40,6 +40,16 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>October 25th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to libslirp-4.9.6 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24182">#24182</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>October 24th, 2026</para>
       <itemizedlist>
         <listitem>

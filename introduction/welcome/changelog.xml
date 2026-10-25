@@ -43,6 +43,10 @@
       <para>October 25th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to systemd-262.1. Fixes
+          <ulink url="&blfs-ticket-root;24131">#24131</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libslirp-4.9.6 (Security Update). Fixes
           <ulink url="&blfs-ticket-root;24182">#24182</ulink>.</para>
         </listitem>

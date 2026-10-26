@@ -43,6 +43,10 @@
       <para>October 25th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to gdm-51.1.1. Fixes
+          <ulink url="&blfs-ticket-root;24154">#24154</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[bdubbs] - Update to audacious and audacious-plugins-4.6.2. Fixes
           <ulink url="&blfs-ticket-root;24145">#24145</ulink>.</para>
         </listitem>

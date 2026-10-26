@@ -44,7 +44,7 @@
       <itemizedlist>
         <listitem>
           <para>[bdubbs] - Update to loupe-51.1. Fixes
-          <ulink url="&blfs-ticket-root;24180">#24160</ulink>.</para>
+          <ulink url="&blfs-ticket-root;24180">#24180</ulink>.</para>
         </listitem>
         <listitem>
           <para>[bdubbs] - Update to openldap-2.7.2. Fixes

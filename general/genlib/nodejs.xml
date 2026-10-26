@@ -68,17 +68,15 @@
       </listitem>
     </itemizedlist>
 
-<!--
     <bridgehead renderas="sect3">Additional Downloads</bridgehead>
     <itemizedlist spacing="compact">
       <listitem>
         <para>
           Required patch:
-          <ulink url="&patch-root;/node-v&nodejs-version;-python_build_fix-1.patch"/>
+          <ulink url="&patch-root;/node-v&nodejs-version;-icu4c-79_fix-1.patch"/>
         </para>
       </listitem>
     </itemizedlist>
--->
 
     <bridgehead renderas="sect3">Node.js Dependencies</bridgehead>
 
@@ -111,13 +109,11 @@
   <sect2 role="installation">
     <title>Installation of Node.js</title>
 
-<!--
     <para>
-      First, fix building this package with Python 3.14:
+      First, fix building this package with icu-79.1:
     </para>
 
-<screen><userinput remap="pre">patch -Np1 -i ../node-v&nodejs-version;-python_build_fix-1.patch</userinput></screen>
--->
+<screen><userinput remap="pre">patch -Np1 -d deps/v8 -i ../node-v&nodejs-version;-icu4c-79_fix-1.patch</userinput></screen>
 
     <para>
       Build <application>Node.js</application> by running the following

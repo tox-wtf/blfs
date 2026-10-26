@@ -18,9 +18,9 @@
 <!-- Reuploaded to anduin due to the complexity of the download URL, per Bruce's
      request. - Doug -->
   <!ENTITY javabin-download-binary-x64 "&sources-anduin-http;/OpenJDK/OpenJDK-&javabin-version;/OpenJDK-&javabin-version;+&javabin-build;-x86_64-bin.tar.xz">
-  <!ENTITY javabin-bin-md5sum-x64      "abf1b077b8108ab00f3ad14d3c0bb353">
+  <!ENTITY javabin-bin-md5sum-x64      "cc63ae1058c567dc7bcc10659e56d068">
   <!ENTITY javabin-bin-size-x64        "170 MB">
-  <!ENTITY javabin-bin-buildsize-x64   "345 MB">
+  <!ENTITY javabin-bin-buildsize-x64   "346 MB">
 ]>
 
 <sect1 id="java" xreflabel="Java-&javabin-version;">

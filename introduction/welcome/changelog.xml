@@ -43,6 +43,10 @@
       <para>October 26th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[pierre] - Update to Java-21.0.13.0.2+1 (64 bit). Part of
+          <ulink url="&blfs-ticket-root;24163">#24163</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[pierre] - Update to OpenJDK-21.0.13.0.2+1 (Security Update).
           Part of <ulink url="&blfs-ticket-root;24163">#24163</ulink>.</para>
         </listitem>

@@ -25,13 +25,13 @@
 <!--<!ENTITY mitkrb-version               "&mitkrb-major-version;">-->
 <!ENTITY nettle-version               "4.0">
 
-<!ENTITY nss-minor-version            "131">
+<!ENTITY nss-minor-version            "132">
 
 <!ENTITY nss-micro-version            "1">
-<!ENTITY nss-version                  "3.&nss-minor-version;.&nss-micro-version;">
-<!ENTITY nss-dir                      "3_&nss-minor-version;_&nss-micro-version;">
-<!--<!ENTITY nss-version                  "3.&nss-minor-version;">
-<!ENTITY nss-dir                      "3_&nss-minor-version;">-->
+<!--<!ENTITY nss-version                  "3.&nss-minor-version;.&nss-micro-version;">
+<!ENTITY nss-dir                      "3_&nss-minor-version;_&nss-micro-version;">-->
+<!ENTITY nss-version                  "3.&nss-minor-version;">
+<!ENTITY nss-dir                      "3_&nss-minor-version;">
 
 <!ENTITY openssh-version              "10.6p1">
 <!ENTITY openssh-md5sum               "a4e4ce2cc3b87706a043f8e0dc3e25d8">
@@ -46,7 +46,7 @@
 <!--<!ENTITY volume_key-version           "0.3.12">-->
 
 <!-- Chapter 5 -->
-<!ENTITY btrfs-progs-version          "7.1">
+<!ENTITY btrfs-progs-version          "7.3">
 <!ENTITY dosfstools-version           "4.2">
 <!ENTITY fuse3-version                "3.18.3">
 <!ENTITY jfsutils-version             "1.1.15">
@@ -58,7 +58,7 @@
 <!ENTITY reiser-version               "3.6.27">
 <!ENTITY smartmontools-version        "7.5">
 <!ENTITY sshfs-version                "3.7.6">
-<!ENTITY xfsprogs-version             "7.2.0">
+<!ENTITY xfsprogs-version             "7.2.1">
 
 <!-- UEFI bootloaders -->
 <!ENTITY efivar-version               "39">
@@ -130,8 +130,8 @@
 <!ENTITY gspell-version               "&gspell-minor;.5">
 <!ENTITY highway-version              "1.4.0">
 
-<!ENTITY icu-major                    "78">
-<!ENTITY icu-minor                    "3">
+<!ENTITY icu-major                    "79">
+<!ENTITY icu-minor                    "1">
 <!ENTITY icu-patch                    "0">
 <!ENTITY icu-version                  "&icu-major;.&icu-minor;"><!-- .&icu-patch;-->
 
@@ -242,15 +242,15 @@
 <!ENTITY glad-version                 "2.0.8">
 <!ENTITY glm-version                  "1.0.3">
 <!ENTITY glycin-majmin                "2.2">
-<!ENTITY glycin-version               "&glycin-majmin;.3">
+<!ENTITY glycin-version               "&glycin-majmin;.4">
 
 <!-- shared by glycin and glycin-gtk4 pages -->
 <!ENTITY glycin-download-http "https://download.gnome.org/sources/glycin/&glycin-majmin;/glycin-&glycin-version;.tar.xz">
-<!ENTITY glycin-md5sum        "eb55aa5446c20a1e1b4963829aeeb46e">
+<!ENTITY glycin-md5sum        "2c926211db26179b93be1b6e867acaad">
 <!ENTITY glycin-size          "7.5 MB">
 
 <!ENTITY graphite2-version            "1.3.14">
-<!ENTITY harfbuzz-version             "14.6.0">
+<!ENTITY harfbuzz-version             "15.0.0">
 <!ENTITY Imath-version                "3.2.3">
 <!ENTITY jasper-version               "4.2.9">
 <!ENTITY lcms2-version                "2.19.1">
@@ -266,7 +266,7 @@
 <!ENTITY libpng-version               "1.6.59">
 <!ENTITY libraw-version               "0.22.2">
 <!ENTITY librsvg-minor                "2.63">
-<!ENTITY librsvg-version              "&librsvg-minor;.3">
+<!ENTITY librsvg-version              "&librsvg-minor;.4">
 <!ENTITY libspiro-version             "20220722">
 <!ENTITY libwebp-version              "1.6.0">
 <!ENTITY mypaint-brushes-version      "2.0.2">
@@ -358,12 +358,12 @@
 <!ENTITY sysmond-version              "1.0.1">
 <!ENTITY sysmon3-version              "3.0.4">
 <!ENTITY sysstat-version              "12.8.0">
-<!ENTITY systemd-version              "262">
+<!ENTITY systemd-version              "262.1">
 <!ENTITY udisks2-version              "2.11.2">   <!-- stable lt .90 micro version -->
 <!ENTITY unrar-version                "7.2.4">
 <!ENTITY unzip-version                "6.0">
 <!ENTITY upower-version               "1.91.5">
-<!ENTITY usbutils-version             "019">
+<!ENTITY usbutils-version             "020">
 <!ENTITY which-version                "2.25">
 <!ENTITY xdotool-version              "4.20260303.1">
 <!ENTITY zip-version                  "3.0">
@@ -412,7 +412,7 @@
 <!ENTITY python311-version                  "3.11.1">
 
 <!ENTITY ruby-minor-version           "4.0">
-<!ENTITY ruby-patch-version           "7">
+<!ENTITY ruby-patch-version           "9">
 <!ENTITY ruby-version                 "&ruby-minor-version;.&ruby-patch-version;">
 <!ENTITY ruby-gemdir                  "/usr/lib/ruby/gems/&ruby-minor-version;.0">
 <!ENTITY rust-version                 "1.99.0">
@@ -427,12 +427,12 @@
 <!ENTITY unifdef-version              "2.12">
 <!ENTITY vala-major-version           "0.56">  <!-- even minors only -->
 <!ENTITY vala-version                 "&vala-major-version;.19">
-<!ENTITY valgrind-version             "3.27.1">
+<!ENTITY valgrind-version             "3.28.0">
 <!ENTITY yasm-version                 "1.3.0">
 
-<!ENTITY javabin-version              "21.0.12.1">
+<!ENTITY javabin-version              "21.0.13.0.2">
 <!ENTITY javabin-build                "1">
-<!ENTITY openjdk-version              "21.0.12.1">
+<!ENTITY openjdk-version              "21.0.13.0.2">
 <!ENTITY openjdk-build                "1">
 <!ENTITY apache-ant-version           "1.10.18">
 
@@ -608,7 +608,7 @@
 <!ENTITY cssselect-md5sum             "49c5cb824fa52120931154f7a24bc904">
 <!ENTITY cython-version               "3.3.0">
 <!ENTITY cython-md5sum                "df8ac911bb3c6af48fb0158160e5b029">
-<!ENTITY dbus-python-version          "1.5.0">
+<!ENTITY dbus-python-version          "1.5.1">
 <!ENTITY docutils-version             "0.23">
 <!ENTITY doxypypy-version             "0.8.8.7">
 <!ENTITY doxypypy-md5sum              "5773d0a7882df900cbda8ee5107e1ced">
@@ -773,7 +773,7 @@
 <!ENTITY ntp-version                  "4.2.8p18">
 <!ENTITY rpcbind-version              "1.3.1">
 <!ENTITY rsync-version                "3.5.1">
-<!ENTITY samba-version                "4.25.0">
+<!ENTITY samba-version                "4.25.1">
 <!ENTITY wget-version                 "1.25.0">
 <!ENTITY wireless-tools-version       "29">
 <!ENTITY wpa_supplicant-version       "2.12">
@@ -798,7 +798,7 @@
 <!ENTITY curl-version                 "8.23.0">
 <!ENTITY geoclue2-version             "2.8.2">
 <!ENTITY glib-networking-minor        "2.90">
-<!ENTITY glib-networking-version      "&glib-networking-minor;.0">
+<!ENTITY glib-networking-version      "&glib-networking-minor;.1">
 <!ENTITY kdsoap-version               "2.3.0">
 <!ENTITY kdsoap-ws-discovery-client-version "0.4.0">
 <!ENTITY ldns-version                 "1.9.2">
@@ -811,11 +811,11 @@
 <!ENTITY libpcap-version              "1.10.7">
 <!ENTITY libpsl-version               "0.23.3">
 <!ENTITY libndp-version               "1.9">
-<!ENTITY libslirp-version             "4.9.5">
+<!ENTITY libslirp-version             "4.9.6">
 <!--<!ENTITY libsoup-minor                "2.74">-->
 <!--<!ENTITY libsoup-version              "&libsoup-minor;.3">-->
 <!ENTITY libsoup3-minor               "3.8">
-<!ENTITY libsoup3-version             "&libsoup3-minor;.0">
+<!ENTITY libsoup3-version             "&libsoup3-minor;.1">
 <!ENTITY libtirpc-version             "1.3.8">
 <!ENTITY neon-version                 "0.37.1">
 <!ENTITY nghttp2-version              "1.70.0">
@@ -862,7 +862,7 @@
 <!ENTITY sqlite-doc-version           "3500400">
 
 <!-- Chapter 23 -->
-<!ENTITY openldap-version             "2.7.1">
+<!ENTITY openldap-version             "2.7.2">
 <!ENTITY unbound-version              "1.25.2">
 
 <!-- Part VI -->
@@ -974,7 +974,7 @@
 <!ENTITY qt6-dir                      "$QT6DIR">
 
 <!-- Chapter 26 -->
-<!ENTITY gdm-version                  "51.1">
+<!ENTITY gdm-version                  "51.1.1">
 <!ENTITY lightdm-version              "1.33.1">
 <!ENTITY lightdm-gtk-greeter-version  "2.0.9">
 <!ENTITY sddm-version                 "0.21.0">
@@ -1134,8 +1134,8 @@
      this information should be matched for both Firefox and Spidermonkey.
      There are cases where they will not match, like when GJS has not adapted
      to the latest ESR. -->
-<!ENTITY firefox-version              "153.5.1">
-<!ENTITY firefox-md5sum               "74098045159f5d07bc8569aaa11862bf">
+<!ENTITY firefox-version              "153.6.0">
+<!ENTITY firefox-md5sum               "0f132e998ca1944e6a0e4661d6ae0d18">
 <!ENTITY firefox-size                 "765 MB">
 <!ENTITY spidermonkey-major           "140">
 <!--
@@ -1169,7 +1169,7 @@
 <!ENTITY rxvt-unicode-version         "9.31">
 <!ENTITY thunderbird-version          "153.5.1">
 <!ENTITY tigervnc-version             "1.16.2">
-<!ENTITY transmission-version         "4.1.3">
+<!ENTITY transmission-version         "4.1.4">
 <!ENTITY xarchiver-version            "0.5.4.27">
 <!ENTITY xdg-utils-version            "1.2.1">
 <!ENTITY xscreensaver-version         "6.17">
@@ -1223,7 +1223,7 @@
 <!ENTITY libmusicbrainz-version       "2.1.5">
 <!ENTITY libmusicbrainz5-version      "5.1.0">
 <!ENTITY libogg-version               "1.3.6">
-<!ENTITY libplacebo-version           "7.360.1">
+<!ENTITY libplacebo-version           "7.387.0">
 <!ENTITY libquicktime-version         "1.2.4">
 <!ENTITY libsamplerate-version        "0.2.2">
 <!ENTITY libsndfile-version           "1.2.2">
@@ -1232,7 +1232,7 @@
 <!ENTITY libvpx-version               "1.17.0">
 <!ENTITY mlt-version                  "7.42.0">
 <!ENTITY opus-version                 "1.6.1">
-<!ENTITY pipewire-version             "1.6.9">
+<!ENTITY pipewire-version             "1.6.10">
 <!ENTITY pulseaudio-major-version     "17.0">
 <!ENTITY pulseaudio-version           "&pulseaudio-major-version;">
 <!ENTITY sbc-version                  "2.2">
@@ -1252,8 +1252,8 @@
 <!ENTITY xvid-version                 "1.3.7">
 
 <!-- Chapter 43 -->
-<!ENTITY audacious-version            "4.6.1">
-<!ENTITY audacious-plugins-version    "4.6.1">
+<!ENTITY audacious-version            "4.6.2">
+<!ENTITY audacious-plugins-version    "4.6.2">
 <!ENTITY CDParanoia-version           "III-10.2">
 <!-- kwave version is the same as KDE applications -->
 <!ENTITY lame-version                 "3.100">

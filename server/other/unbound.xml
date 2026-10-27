@@ -130,7 +130,7 @@ make</userinput></screen>
 
     <para>
       If you have <xref linkend="doxygen"/> and <xref linkend="sphinx"/>
-      installed, the HTML documentation can built with the following commands
+      installed, the HTML documentation can be built with the following commands
       <footnote><para>
         Documentation is built this way since the build system will
         incorrectly generate the commands that build the documentation. This

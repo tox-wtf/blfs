@@ -43,6 +43,10 @@
       <para>October 26th, 2026</para>
       <itemizedlist>
         <listitem>
+          <para>[bdubbs] - Update to btrfs-progs-v7.3. Fixes
+          <ulink url="&blfs-ticket-root;24172">#24172</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[jlocash] - Update to libplacebo-7.387.0. Fixes
           <ulink url="&blfs-ticket-root;24184">#24184</ulink>.</para>
         </listitem>

@@ -40,8 +40,42 @@
     <title>Changelog Entries:</title>
 
     <listitem>
+      <para>November 25th, 2026</para>
+      <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to screen-5.0.3 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24358">#24358</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to libpcap-1.11.1. Fixes
+          <ulink url="&blfs-ticket-root;24357">#24357</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to gdm-51.2 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24356">#24356</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to fetchmail-6.6.10. Fixes
+          <ulink url="&blfs-ticket-root;24355">#24355</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to cargo-c-0.10.28. Fixes
+          <ulink url="&blfs-ticket-root;24354">#24354</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[jlocash] - Update to zxing-cpp-3.2.0. Fixes
+          <ulink url="&blfs-ticket-root;24353">#24353</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>November 24th, 2026</para>
       <itemizedlist>
+        <listitem>
+          <para>[jlocash] - Update to ImageMagick-7.1.2-36 (Security Update). Fixes
+          <ulink url="&blfs-ticket-root;24352">#24352</ulink>.</para>
+        </listitem>
         <listitem>
           <para>[jlocash] - Update to simdutf-9.5.0. Fixes
           <ulink url="&blfs-ticket-root;24350">#24350</ulink>.</para>
